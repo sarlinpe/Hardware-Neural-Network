@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Tue Nov  1 15:33:23 2016">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="cf229b1eb2ed49ae8e97136ebce98cf0" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddBusInterfaceHandler" value="2" type="JavaHandler"/>
+<property name="CloseProject" value="2" type="JavaHandler"/>
+<property name="CreateBlockDesign" value="1" type="JavaHandler"/>
+<property name="CustomizeRSBBlock" value="7" type="JavaHandler"/>
+<property name="EditDelete" value="1" type="JavaHandler"/>
+<property name="EditInIPPackagerHandler" value="2" type="JavaHandler"/>
+<property name="EditUndo" value="2" type="JavaHandler"/>
+<property name="IPPackagerHandler" value="3" type="JavaHandler"/>
+<property name="IPPackagerWizardHandler" value="2" type="JavaHandler"/>
+<property name="OpenBlockDesign" value="1" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
+<property name="ShowView" value="1" type="JavaHandler"/>
+<property name="ZoomFit" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, Edit in IP Packager" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_OPEN_PROJECT, Open Project..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_PACKAGER_ADD_BUS_INTERFACE, Package IP_packager_add_bus_interface" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ZOOM_FIT, System_zoom_fit" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, VHDL Simulation ;  ;  ; false ;  ; test_axis_coproc_v1_0, 6" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, VHDL Synthesis ;  ;  ; false ;  ; test_axis_coproc_v1_0, 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, hdl/test_axis_coproc_v1_0_M00_AXI.vhd ;  ; vhdlSource ; false ; xilinx_vhdlbehavioralsimulation ; , 8, hdl/test_axis_coproc_v1_0_M00_AXI.vhd, 0, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, hdl/test_axis_coproc_v1_0_M00_AXI.vhd ;  ; vhdlSource ; false ; xilinx_vhdlbehavioralsimulation ; , 8, hdl/test_axis_coproc_v1_0_M00_AXI.vhd, 0, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, hdl/test_axis_coproc_v1_0_M00_AXI.vhd ;  ; vhdlSource ; false ; xilinx_vhdlsynthesis ; , 4, hdl/test_axis_coproc_v1_0_M00_AXI.vhd, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, hdl/test_axis_coproc_v1_0_M00_AXI.vhd ;  ; vhdlSource ; false ; xilinx_vhdlsynthesis ; , 4, hdl/test_axis_coproc_v1_0_M00_AXI.vhd, 0, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, hdl/test_axis_coproc_v1_0_S00_AXIS.vhd ;  ; vhdlSource ; false ; xilinx_vhdlbehavioralsimulation ; , 7, hdl/test_axis_coproc_v1_0_S00_AXIS.vhd, 0, false" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, hdl/test_axis_coproc_v1_0_S00_AXIS.vhd ;  ; vhdlSource ; false ; xilinx_vhdlbehavioralsimulation ; , 7, hdl/test_axis_coproc_v1_0_S00_AXIS.vhd, 0, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, hdl/test_axis_coproc_v1_0_S00_AXIS.vhd ;  ; vhdlSource ; false ; xilinx_vhdlsynthesis ; , 3, hdl/test_axis_coproc_v1_0_S00_AXIS.vhd, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileGroupFacetTable_FILE_GROUP_FACET_TABLE, hdl/test_axis_coproc_v1_0_S00_AXIS.vhd ;  ; vhdlSource ; false ; xilinx_vhdlsynthesis ; , 3, hdl/test_axis_coproc_v1_0_S00_AXIS.vhd, 0, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileGroupFacetTable_REMOVE_FILE, Remove File" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, PS_PL_coprocessing (PS_PL_coprocessing.bd" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, myip_v1_0 - EXAMPLE (test_axis_coproc_v1_0.vhd" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Package IP], 5, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, /home/pe_s/Documents/EHSD/Project/Hardware_designs/NNs_hardware_platforms/NNs_hardware_platforms.xpr, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, Open Recent Project" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainToolbarMgr_OPEN, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, Compatibility, 1" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, Customization GUI, 6" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, Customization Parameters, 3" value="5" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, File Groups, 2" value="3" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, Identification, 0" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, Ports and Interfaces, 4" value="5" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, Review and Package, 7" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ParameterFacetTable_PARAMETER_FACET_TABLE, C_M00_AXI_HIGHADDR ;  ; C M00 AXI HIGHADDR ; 0x00000000 ; 32 ; bitString ; default ;  ;  ;  ; , 5, C_M00_AXI_HIGHADDR, 0, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ParameterFacetTable_PARAMETER_FACET_TABLE, C_S00_AXIS_TDATA_WIDTH ; AXI4Stream sink: Data Width ; C S00 AXIS TDATA WIDTH ; 32 ; 0 ; long ; default ; 32 ;  ;  ; , 1, C_S00_AXIS_TDATA_WIDTH, 0, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ParameterFacetTable_PARAMETER_FACET_TABLE, C_S00_AXIS_TDATA_WIDTH ; AXI4Stream sink: Data Width ; C S00 AXIS TDATA WIDTH ; 32 ; 0 ; long ; default ; 32 ;  ;  ; , 1, C_S00_AXIS_TDATA_WIDTH, 0, false, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ParameterFacetTable_PARAMETER_FACET_TABLE, Customization Parameters ;  ;  ;  ;  ;  ;  ;  ;  ;  ; , 0, Customization Parameters, 0, false" value="3" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ParameterFacetTable_PARAMETER_FACET_TABLE, null, -1, null, -1, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ParameterFacetTable_REFRESH, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ParameterFacetTable_REMOVE_PARAMETER, Remove Parameter" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceContentPanel_REFRESH, (String" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ;  ; , 2" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ;  ; , 2, Clock and Reset Signals, 0, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ;  ; , 2, Clock and Reset Signals, 0, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, M00_AXI ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; , 1, M00_AXI, 0, true" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, M00_AXI_CLK ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; , 6, M00_AXI_CLK, 0, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, M00_AXI_CLK ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; , 6, M00_AXI_CLK, 0, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, S00_AXIS ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; , 0, S00_AXIS, 0, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, S00_AXIS ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; , 0, S00_AXIS, 0, true, false, false, false, true, false" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, S00_AXIS_RST ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; , 3, S00_AXIS_RST, 0, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, null, -1, null, -1, false, false, false, false, true, false" value="4" type="GuiResourceData"/>
+<property name="PAResourceQtoS.RefreshPackagerTableAction_REFRESH_ALL_ROWS_IN_TABLE, Refresh Table" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, Re-Package IP" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SelectMenu_HIGHLIGHT, Highlight" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="4" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="63" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="56" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

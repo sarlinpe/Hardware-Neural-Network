@@ -1,0 +1,14 @@
+#ifndef SRC_HW_IMP_HPP_
+#define SRC_HW_IMP_HPP_
+
+#include "xaxidma.h"
+
+#include "utility.hpp"
+
+void sw_load_weights(u16* weights);
+void sw_rand_weights();
+
+void hw_predict(u8* features, u8* results, u16 nb_ex);
+
+
+#endif

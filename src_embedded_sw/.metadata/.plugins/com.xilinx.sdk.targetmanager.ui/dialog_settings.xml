@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Local" key="simple_hw_platform-target"/>
+	<item value="false" key="PS_PL_coprocessing_hw-partial_bit"/>
+	<item value="Local" key="PS_PL_coprocessing_distr_hw-target"/>
+	<item value="" key="PS_only_hw-bmmFile"/>
+	<item value="PS_only_design_wrapper.bit" key="PS_only_hw-bitFile"/>
+	<item value="Local" key="PS_only_hw-target"/>
+	<item value="" key="PS_PL_coprocessing_distr_hw-bmmFile"/>
+	<item value="Auto Detect" key="PS_PL_coprocessing_hw-device"/>
+	<item value="PS_PL_coprocessing_distributed_wrapper.bit" key="PS_PL_coprocessing_distr_hw-bitFile"/>
+	<item value="false" key="PS_PL_coprocessing_distr_hw-partial_bit"/>
+	<item value="Local" key="PS_PL_coprocessing_hw-target"/>
+	<item value="false" key="PS_only_hw-partial_bit"/>
+	<item value="PS_PL_coprocessing_distr_hw" key="programfpga.hwplatform"/>
+	<item value="Auto Detect" key="PS_only_hw-device"/>
+	<item value="" key="PS_PL_coprocessing_hw-bmmFile"/>
+	<item value="Auto Detect" key="simple_hw_platform-device"/>
+	<item value="false" key="simple_hw_platform-partial_bit"/>
+	<item value="Auto Detect" key="PS_PL_coprocessing_distr_hw-device"/>
+	<item value="design_1_wrapper.bit" key="simple_hw_platform-bitFile"/>
+	<item value="design_1_wrapper_bd.bmm" key="simple_hw_platform-bmmFile"/>
+	<item value="PS_PL_coprocessing_wrapper.bit" key="PS_PL_coprocessing_hw-bitFile"/>
+</section>

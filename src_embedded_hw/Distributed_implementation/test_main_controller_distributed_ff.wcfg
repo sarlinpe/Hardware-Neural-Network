@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_main_controller_distributed_ff_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="test_main_controller_distributed_ff" />
+            <top_module name="utility" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5955600000fs"></ZoomStartTime>
+      <ZoomEndTime time="11340055959fs"></ZoomEndTime>
+      <Cursor1Time time="10664000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="35" />
+   <wave_markers>
+      <marker label="" time="9164000000" />
+      <marker label="" time="10664000000" />
+   </wave_markers>
+   <wvobject type="array" fp_name="/test_main_controller_distributed_ff/opcode">
+      <obj_property name="ElementShortName">opcode[31:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_distributed_ff/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_distributed_ff/cnt_sent">
+      <obj_property name="ElementShortName">cnt_sent</obj_property>
+      <obj_property name="ObjectShortName">cnt_sent</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_distributed_ff/AXIS_in">
+      <obj_property name="ElementShortName">AXIS_in</obj_property>
+      <obj_property name="ObjectShortName">AXIS_in</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_distributed_ff/uut/axis_unit/AXIS_out">
+      <obj_property name="ElementShortName">AXIS_out</obj_property>
+      <obj_property name="ObjectShortName">AXIS_out</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_distributed_ff/features_RAM">
+      <obj_property name="ElementShortName">features_RAM[0:15]</obj_property>
+      <obj_property name="ObjectShortName">features_RAM[0:15]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_distributed_ff/weights1_RAM">
+      <obj_property name="ElementShortName">weights1_RAM[0:14]</obj_property>
+      <obj_property name="ObjectShortName">weights1_RAM[0:14]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_distributed_ff/weights2_RAM">
+      <obj_property name="ElementShortName">weights2_RAM[0:15]</obj_property>
+      <obj_property name="ObjectShortName">weights2_RAM[0:15]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_distributed_ff/results_raw">
+      <obj_property name="ElementShortName">results_raw[0:15][11:0]</obj_property>
+      <obj_property name="ObjectShortName">results_raw[0:15][11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_distributed_ff/S_TDATA">
+      <obj_property name="ElementShortName">S_TDATA[0:24][31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_TDATA[0:24][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_distributed_ff/uut/main_state_curr">
+      <obj_property name="ElementShortName">main_state_curr</obj_property>
+      <obj_property name="ObjectShortName">main_state_curr</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_distributed_ff/uut/axis_command">
+      <obj_property name="ElementShortName">axis_command</obj_property>
+      <obj_property name="ObjectShortName">axis_command</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_distributed_ff/uut/axis_unit/AXIS_out.S_AXIS_TREADY">
+      <obj_property name="ElementShortName">.S_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">.S_AXIS_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_distributed_ff/uut/axis_task_done">
+      <obj_property name="ElementShortName">axis_task_done</obj_property>
+      <obj_property name="ObjectShortName">axis_task_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_distributed_ff/uut/feedforward_en">
+      <obj_property name="ElementShortName">feedforward_en</obj_property>
+      <obj_property name="ObjectShortName">feedforward_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_distributed_ff/uut/feedforward_new">
+      <obj_property name="ElementShortName">feedforward_new</obj_property>
+      <obj_property name="ObjectShortName">feedforward_new</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_distributed_ff/uut/feedforward_unit/stage1_done">
+      <obj_property name="ElementShortName">stage1_done</obj_property>
+      <obj_property name="ObjectShortName">stage1_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_distributed_ff/uut/feedforward_unit/stage2_done">
+      <obj_property name="ElementShortName">stage2_done</obj_property>
+      <obj_property name="ObjectShortName">stage2_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_distributed_ff/uut/feedforward_unit/stage3_done">
+      <obj_property name="ElementShortName">stage3_done</obj_property>
+      <obj_property name="ObjectShortName">stage3_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_distributed_ff/uut/feedforward_out_avail">
+      <obj_property name="ElementShortName">feedforward_out_avail</obj_property>
+      <obj_property name="ObjectShortName">feedforward_out_avail</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_distributed_ff/uut/feedforward_unit/state1_curr">
+      <obj_property name="ElementShortName">state1_curr</obj_property>
+      <obj_property name="ObjectShortName">state1_curr</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_distributed_ff/uut/feedforward_out">
+      <obj_property name="ElementShortName">feedforward_out[0:3][11:0]</obj_property>
+      <obj_property name="ObjectShortName">feedforward_out[0:3][11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_distributed_ff/uut/pred_req">
+      <obj_property name="ElementShortName">pred_req</obj_property>
+      <obj_property name="ObjectShortName">pred_req</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_distributed_ff/uut/pred_done">
+      <obj_property name="ElementShortName">pred_done</obj_property>
+      <obj_property name="ObjectShortName">pred_done</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_distributed_ff/uut/cnt_ex_predicted">
+      <obj_property name="ElementShortName">cnt_ex_predicted</obj_property>
+      <obj_property name="ObjectShortName">cnt_ex_predicted</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_distributed_ff/uut/pred_p">
+      <obj_property name="ElementShortName">pred_p[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pred_p[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_distributed_ff/uut/pred_p_addr">
+      <obj_property name="ElementShortName">pred_p_addr</obj_property>
+      <obj_property name="ObjectShortName">pred_p_addr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_distributed_ff/uut/pred_p_write_req">
+      <obj_property name="ElementShortName">pred_p_write_req</obj_property>
+      <obj_property name="ObjectShortName">pred_p_write_req</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_distributed_ff/uut/axis_command">
+      <obj_property name="ElementShortName">axis_command</obj_property>
+      <obj_property name="ObjectShortName">axis_command</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_distributed_ff/uut/axis_task_done">
+      <obj_property name="ElementShortName">axis_task_done</obj_property>
+      <obj_property name="ObjectShortName">axis_task_done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_distributed_ff/uut/prediction_unit/pred_ram">
+      <obj_property name="ElementShortName">pred_ram[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pred_ram[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_distributed_ff/uut/axis_unit/state_curr">
+      <obj_property name="ElementShortName">state_curr</obj_property>
+      <obj_property name="ObjectShortName">state_curr</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_distributed_ff/uut/axis_unit/pred_ram">
+      <obj_property name="ElementShortName">pred_ram[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pred_ram[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_distributed_ff/uut/axis_unit/pred_read_req">
+      <obj_property name="ElementShortName">pred_read_req</obj_property>
+      <obj_property name="ObjectShortName">pred_read_req</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_distributed_ff/uut/axis_unit/pred_addr">
+      <obj_property name="ElementShortName">pred_addr</obj_property>
+      <obj_property name="ObjectShortName">pred_addr</obj_property>
+   </wvobject>
+</wave_config>

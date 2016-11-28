@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2016.2 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="14" Path="/home/pe_s/Documents/EHSD/Project/Hardware_designs/BRAM_implementation/BRAM_implementation.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="706d96cd3f954e029354a74a7f30194b"/>
+    <Option Name="Part" Val="xc7z020clg484-1"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val=""/>
+    <Option Name="CompiledLibDirModelSim" Val="/home/pe_s/Documents/EHSD/Project/Hardware_designs/BRAM_implementation/BRAM_implementation.cache/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="/home/pe_s/Documents/EHSD/Project/Hardware_designs/BRAM_implementation/BRAM_implementation.cache/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="/home/pe_s/Documents/EHSD/Project/Hardware_designs/BRAM_implementation/BRAM_implementation.cache/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirVCS" Val="/home/pe_s/Documents/EHSD/Project/Hardware_designs/BRAM_implementation/BRAM_implementation.cache/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="/home/pe_s/Documents/EHSD/Project/Hardware_designs/BRAM_implementation/BRAM_implementation.cache/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="/home/pe_s/Documents/EHSD/Project/Hardware_designs/BRAM_implementation/BRAM_implementation.cache/compile_simlib/activehdl"/>
+    <Option Name="TargetLanguage" Val="VHDL"/>
+    <Option Name="BoardPart" Val="em.avnet.com:zed:part0:1.3"/>
+    <Option Name="SourceMgmtMode" Val="DisplayOnly"/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="IPRepoPath" Val="$PSRCDIR"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../project_module_workspace"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PPRDIR/BRAM_implementation.ip_user_files"/>
+    <Option Name="IPStaticSourceDir" Val="$PPRDIR/BRAM_implementation.ip_user_files/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="DSABoardId" Val="zed"/>
+    <Option Name="WTXSimLaunchSim" Val="1387"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="0"/>
+    <Option Name="WTModelSimExportSim" Val="0"/>
+    <Option Name="WTQuestaExportSim" Val="0"/>
+    <Option Name="WTIesExportSim" Val="0"/>
+    <Option Name="WTVcsExportSim" Val="0"/>
+    <Option Name="WTRivieraExportSim" Val="0"/>
+    <Option Name="WTActivehdlExportSim" Val="0"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/imports/Hardware_designs/sigmoid.vhd">
+        <FileInfo>
+          <Attr Name="Library" Val="xil_defaultlib"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../sigmoid.vhd"/>
+          <Attr Name="ImportTime" Val="1477724173"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/feedforward_dataflow.vhd">
+        <FileInfo>
+          <Attr Name="Library" Val="xil_defaultlib"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sources_1/new/feedforward_dataflow.vhd"/>
+          <Attr Name="ImportTime" Val="1478961147"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/project_module_workspace/lfsr_counter.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/lfsr_counter.vhd"/>
+          <Attr Name="ImportTime" Val="1477993964"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/bp_GOOD/back_prop_dataflow.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../bp_multi_out/project_complete.srcs/sources_1/imports/bp_GOOD/back_prop_dataflow.vhd"/>
+          <Attr Name="ImportTime" Val="1478620216"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/feedforward_controller.vhd">
+        <FileInfo>
+          <Attr Name="Library" Val="xil_defaultlib"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sources_1/new/feedforward_controller.vhd"/>
+          <Attr Name="ImportTime" Val="1478937968"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/AXIS_controller.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sources_1/new/AXIS_controller.vhd"/>
+          <Attr Name="ImportTime" Val="1478961313"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/weights_generator.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sources_1/new/weights_generator.vhd"/>
+          <Attr Name="ImportTime" Val="1478028983"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/prediction.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sources_1/new/prediction.vhd"/>
+          <Attr Name="ImportTime" Val="1478548833"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/bp_GOOD/back_prop_controller.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../bp_multi_out/project_complete.srcs/sources_1/imports/bp_GOOD/back_prop_controller.vhd"/>
+          <Attr Name="ImportTime" Val="1478622920"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/main_controller.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sources_1/new/main_controller.vhd"/>
+          <Attr Name="ImportTime" Val="1478961374"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/project_module_workspace/AXIS_interface.vhd">
+        <FileInfo>
+          <Attr Name="Library" Val="xil_defaultlib"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/AXIS_interface.vhd"/>
+          <Attr Name="ImportTime" Val="1477798922"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/utility.vhd">
+        <FileInfo>
+          <Attr Name="Library" Val="work"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sources_1/new/utility.vhd"/>
+          <Attr Name="ImportTime" Val="1478454155"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/AXIS_interface_v1.vhd">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sources_1/new/AXIS_interface_v1.vhd"/>
+          <Attr Name="ImportTime" Val="1477817452"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/component.xml">
+        <FileInfo SFType="IPXACT"/>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="AXIS_interface"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/imports/Hardware_designs/constraints_debug.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../constraints_debug.xdc"/>
+          <Attr Name="ImportTime" Val="1478010081"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sim_1/imports/project_module_workspace/test_AXIS_interface_v1.vhd">
+        <FileInfo>
+          <Attr Name="Library" Val="xil_defaultlib"/>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/test_AXIS_interface_v1.vhd"/>
+          <Attr Name="ImportTime" Val="1477550963"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/project_module_workspace/Simulation_results/test_AXIS_interface_v1_sim.wcfg">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/Simulation_results/test_AXIS_interface_v1_sim.wcfg"/>
+          <Attr Name="ImportTime" Val="1477544601"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/test_feedforward_dataflow_v1.vhd">
+        <FileInfo>
+          <Attr Name="Library" Val="xil_defaultlib"/>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sim_1/new/test_feedforward_dataflow_v1.vhd"/>
+          <Attr Name="ImportTime" Val="1477664732"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/project_module_workspace/Simulation_results/test_feedforward_dataflow_v1_sim.wcfg">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/Simulation_results/test_feedforward_dataflow_v1_sim.wcfg"/>
+          <Attr Name="ImportTime" Val="1477563570"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/test_feedforward_controller_v1.vhd">
+        <FileInfo>
+          <Attr Name="Library" Val="xil_defaultlib"/>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sim_1/new/test_feedforward_controller_v1.vhd"/>
+          <Attr Name="ImportTime" Val="1477724592"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/project_module_workspace/Simulation_results/test_feedforward_controller_v1_sim.wcfg">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/Simulation_results/test_feedforward_controller_v1_sim.wcfg"/>
+          <Attr Name="ImportTime" Val="1477671287"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/test_feedforward_controller_stage2.vhd">
+        <FileInfo>
+          <Attr Name="Library" Val="xil_defaultlib"/>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sim_1/new/test_feedforward_controller_stage2.vhd"/>
+          <Attr Name="ImportTime" Val="1477745278"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/project_module_workspace/Simulation_results/test_feedforward_controller_stage2_sim.wcfg">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/Simulation_results/test_feedforward_controller_stage2_sim.wcfg"/>
+          <Attr Name="ImportTime" Val="1477746493"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/test_feedforward_controller_stage3.vhd">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sim_1/new/test_feedforward_controller_stage3.vhd"/>
+          <Attr Name="ImportTime" Val="1477756432"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/project_module_workspace/Simulation_results/test_feedforward_controller_stage3_sim.wcfg">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/Simulation_results/test_feedforward_controller_stage3_sim.wcfg"/>
+          <Attr Name="ImportTime" Val="1477756327"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/test_feedforward_controller_stage4.vhd">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sim_1/new/test_feedforward_controller_stage4.vhd"/>
+          <Attr Name="ImportTime" Val="1478511834"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/project_module_workspace/Simulation_results/test_feedforward_controller_stage4_sim.wcfg">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/Simulation_results/test_feedforward_controller_stage4_sim.wcfg"/>
+          <Attr Name="ImportTime" Val="1477899730"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/test_axis_controller_v1.vhd">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sim_1/new/test_axis_controller_v1.vhd"/>
+          <Attr Name="ImportTime" Val="1477897718"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/project_module_workspace/Simulation_results/test_axis_controller_v1_sim.wcfg">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/Simulation_results/test_axis_controller_v1_sim.wcfg"/>
+          <Attr Name="ImportTime" Val="1477877546"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/test_main_controller_v1.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sim_1/new/test_main_controller_v1.vhd"/>
+          <Attr Name="ImportTime" Val="1478937159"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/project_module_workspace/test_main_controller_v1_sim.wcfg">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/test_main_controller_v1_sim.wcfg"/>
+          <Attr Name="ImportTime" Val="1478937854"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/test_lfsr_counter.vhd">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sim_1/new/test_lfsr_counter.vhd"/>
+          <Attr Name="ImportTime" Val="1478023056"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/test_weights_generator.vhd">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sim_1/new/test_weights_generator.vhd"/>
+          <Attr Name="ImportTime" Val="1478028996"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/project_module_workspace/Simulation_results/test_weights_generator_sim.wcfg">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/Simulation_results/test_weights_generator_sim.wcfg"/>
+          <Attr Name="ImportTime" Val="1478027843"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/test_prediction_single_ended.vhd">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sim_1/new/test_prediction_single_ended.vhd"/>
+          <Attr Name="ImportTime" Val="1478547932"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/project_module_workspace/Simulation_results/test_main_controller_w_generator.wcfg">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/Simulation_results/test_main_controller_w_generator.wcfg"/>
+          <Attr Name="ImportTime" Val="1478197383"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/project_module_workspace/Simulation_results/test_prediction_single_ended.wcfg">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/Simulation_results/test_prediction_single_ended.wcfg"/>
+          <Attr Name="ImportTime" Val="1478197895"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/new/sigmoid_test.vhd">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../sigmoid_1.srcs/sim_1/new/sigmoid_test.vhd"/>
+          <Attr Name="ImportTime" Val="1477714680"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/test_backprop_single_ended.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sim_1/new/test_backprop_single_ended.vhd"/>
+          <Attr Name="ImportTime" Val="1478917564"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/project_module_workspace/Simulation_results/test_backprop_single_ended_sim.wcfg">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/Simulation_results/test_backprop_single_ended_sim.wcfg"/>
+          <Attr Name="ImportTime" Val="1478935654"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/test_prediction_multi_ended.vhd">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/project_module_workspace.srcs/sim_1/new/test_prediction_multi_ended.vhd"/>
+          <Attr Name="ImportTime" Val="1478548904"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/project_module_workspace/Simulation_results/test_prediction_multi_ended.wcfg">
+        <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../project_module_workspace/Simulation_results/test_prediction_multi_ended.wcfg"/>
+          <Attr Name="ImportTime" Val="1478548945"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="test_main_controller_v1"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../project_module_workspace/test_AXIS_interface_v1_sim.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../project_module_workspace/test_feedforward_dataflow_v1_sim.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../project_module_workspace/test_feedforward_controller_v1_sim.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../project_module_workspace/test_feedforward_controller_stage2_sim.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../project_module_workspace/test_feedforward_controller_stage3_sim.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../project_module_workspace/test_feedforward_controller_stage4_sim.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../project_module_workspace/test_axis_controller_v1_sim.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../project_module_workspace/test_main_controller_v1_sim.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../project_module_workspace/Simulation_results/test_weights_generator_sim.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../project_module_workspace/Simulation_results/test_main_controller_w_generator.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../project_module_workspace/Simulation_results/test_prediction_single_ended.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../project_module_workspace/Simulation_results/test_backprop_single_ended_sim.wcfg"/>
+        <Option Name="XSimWcfgFile" Val="$PPRDIR/../project_module_workspace/Simulation_results/test_prediction_multi_ended.wcfg"/>
+        <Option Name="xsim.simulate.runtime" Val="3500000"/>
+        <Option Name="xsim.simulate.wdb" Val="5"/>
+        <Option Name="NLNetlistMode" Val="funcsim"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="IES">
+      <Option Name="Description" Val="Incisive Enterprise Simulator (IES)"/>
+    </Simulator>
+    <Simulator Name="VCS">
+      <Option Name="Description" Val="Verilog Compiler Simulator (VCS)"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="10">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z020clg484-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." State="current" SynthRun="synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+  </Runs>
+</Project>

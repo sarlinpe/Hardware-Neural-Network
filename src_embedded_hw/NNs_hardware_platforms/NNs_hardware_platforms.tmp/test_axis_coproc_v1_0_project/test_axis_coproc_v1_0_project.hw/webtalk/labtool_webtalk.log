@@ -1,0 +1,8 @@
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source /home/pe_s/Documents/EHSD/Project/Hardware_designs/NNs_hardware_platforms/NNs_hardware_platforms.tmp/test_axis_coproc_v1_0_project/test_axis_coproc_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Nov  1 15:40:34 2016...

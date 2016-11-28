@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="PS_PL_coprocessing_distr_hw" key="applicationwizard.hw_platform_key"/>
+	<item value="PS_PL_coprocessing_distr_hw" key="bspwizard.hw_platform_key"/>
+</section>

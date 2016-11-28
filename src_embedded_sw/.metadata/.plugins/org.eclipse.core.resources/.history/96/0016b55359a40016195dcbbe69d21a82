@@ -1,0 +1,20 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+/* Main NN architecture */
+#define NB_FEATURES				13
+#define NB_HIDDEN_NODES			1
+#define NB_CLASSES				4
+#define SINGLE_ENDED			1
+
+#define NB_OUTPUT_NODES			(SINGLE_ENDED ? 1 : NB_CLASSES)
+#define NB_WEIGHTS1				(NB_FEATURES+1)*NB_HIDDEN_NODES
+#define NB_WEIGHTS2				(NB_HIDDEN_NODES+1)*NB_OUTPUT_NODES
+
+#define c_TERM_OUT 				'$'
+#define c_ACK 					'%'
+#define c_ERR 					'@'
+#define c_END					'&'
+
+
+#endif

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_feedforward_dataflow_v1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="test_feedforward_dataflow_v1" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="211481000fs"></ZoomStartTime>
+      <ZoomEndTime time="3811481001fs"></ZoomEndTime>
+      <Cursor1Time time="798393000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="11" />
+   <wvobject type="array" fp_name="/test_feedforward_dataflow_v1/features_RAM">
+      <obj_property name="ElementShortName">features_RAM[0:2]</obj_property>
+      <obj_property name="ObjectShortName">features_RAM[0:2]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_feedforward_dataflow_v1/weights_RAM">
+      <obj_property name="ElementShortName">weights_RAM[0:11]</obj_property>
+      <obj_property name="ObjectShortName">weights_RAM[0:11]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_feedforward_dataflow_v1/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_feedforward_dataflow_v1/clk_EN">
+      <obj_property name="ElementShortName">clk_EN</obj_property>
+      <obj_property name="ObjectShortName">clk_EN</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_feedforward_dataflow_v1/rst_1">
+      <obj_property name="ElementShortName">rst_1</obj_property>
+      <obj_property name="ObjectShortName">rst_1</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_feedforward_dataflow_v1/feature">
+      <obj_property name="ElementShortName">feature[11:0]</obj_property>
+      <obj_property name="ObjectShortName">feature[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_feedforward_dataflow_v1/weight1">
+      <obj_property name="ElementShortName">weight1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">weight1[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_feedforward_dataflow_v1/counter_stage_1">
+      <obj_property name="ElementShortName">counter_stage_1</obj_property>
+      <obj_property name="ObjectShortName">counter_stage_1</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_feedforward_dataflow_v1/uut/prod_1">
+      <obj_property name="ElementShortName">prod_1[23:0]</obj_property>
+      <obj_property name="ObjectShortName">prod_1[23:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_feedforward_dataflow_v1/uut/sum_1">
+      <obj_property name="ElementShortName">sum_1[0:2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_1[0:2][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_feedforward_dataflow_v1/uut/idx_stage_1">
+      <obj_property name="ElementShortName">idx_stage_1</obj_property>
+      <obj_property name="ObjectShortName">idx_stage_1</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

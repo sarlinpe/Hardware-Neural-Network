@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_prediction_multi_ended_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="test_prediction_multi_ended" />
+            <top_module name="utility" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2066000001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="13" />
+   <wvobject type="logic" fp_name="/test_prediction_multi_ended/pred_req">
+      <obj_property name="ElementShortName">pred_req</obj_property>
+      <obj_property name="ObjectShortName">pred_req</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_prediction_multi_ended/pred_done">
+      <obj_property name="ElementShortName">pred_done</obj_property>
+      <obj_property name="ObjectShortName">pred_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_prediction_multi_ended/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_prediction_multi_ended/cnt_feedforward_out">
+      <obj_property name="ElementShortName">cnt_feedforward_out</obj_property>
+      <obj_property name="ObjectShortName">cnt_feedforward_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_prediction_multi_ended/result_raw">
+      <obj_property name="ElementShortName">result_raw[0:3][11:0]</obj_property>
+      <obj_property name="ObjectShortName">result_raw[0:3][11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_prediction_multi_ended/uut/nb_output_nodes">
+      <obj_property name="ElementShortName">nb_output_nodes</obj_property>
+      <obj_property name="ObjectShortName">nb_output_nodes</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_prediction_multi_ended/uut/idx_max">
+      <obj_property name="ElementShortName">idx_max</obj_property>
+      <obj_property name="ObjectShortName">idx_max</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_prediction_multi_ended/uut/tmp">
+      <obj_property name="ElementShortName">tmp[11:0]</obj_property>
+      <obj_property name="ObjectShortName">tmp[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_prediction_multi_ended/uut/pred_write_req">
+      <obj_property name="ElementShortName">pred_write_req</obj_property>
+      <obj_property name="ObjectShortName">pred_write_req</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_prediction_multi_ended/uut/pred_addr">
+      <obj_property name="ElementShortName">pred_addr</obj_property>
+      <obj_property name="ObjectShortName">pred_addr</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_prediction_multi_ended/uut/pred_ram">
+      <obj_property name="ElementShortName">pred_ram[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pred_ram[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_prediction_multi_ended/uut/pred_done">
+      <obj_property name="ElementShortName">pred_done</obj_property>
+      <obj_property name="ObjectShortName">pred_done</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_prediction_multi_ended/uut/cnt_classes">
+      <obj_property name="ElementShortName">cnt_classes</obj_property>
+      <obj_property name="ObjectShortName">cnt_classes</obj_property>
+   </wvobject>
+</wave_config>

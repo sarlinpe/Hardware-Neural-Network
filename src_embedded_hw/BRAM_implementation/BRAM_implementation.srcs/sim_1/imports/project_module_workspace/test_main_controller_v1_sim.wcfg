@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_main_controller_v1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="test_main_controller_v1" />
+            <top_module name="utility" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="72564000000fs"></ZoomStartTime>
+      <ZoomEndTime time="73896000001fs"></ZoomEndTime>
+      <Cursor1Time time="73136000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="80" />
+   <wave_markers>
+      <marker label="" time="70215000000" />
+   </wave_markers>
+   <wvobject type="array" fp_name="/test_main_controller_v1/labels_RAM">
+      <obj_property name="ElementShortName">labels_RAM[0:8]</obj_property>
+      <obj_property name="ObjectShortName">labels_RAM[0:8]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/features_RAM">
+      <obj_property name="ElementShortName">features_RAM[0:116]</obj_property>
+      <obj_property name="ObjectShortName">features_RAM[0:116]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/weights1_RAM">
+      <obj_property name="ElementShortName">weights1_RAM[0:279]</obj_property>
+      <obj_property name="ObjectShortName">weights1_RAM[0:279]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/weights2_RAM">
+      <obj_property name="ElementShortName">weights2_RAM[0:41]</obj_property>
+      <obj_property name="ObjectShortName">weights2_RAM[0:41]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/results_raw">
+      <obj_property name="ElementShortName">results_raw[0:17][11:0]</obj_property>
+      <obj_property name="ObjectShortName">results_raw[0:17][11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/S_TDATA">
+      <obj_property name="ElementShortName">S_TDATA[0:36][31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_TDATA[0:36][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/S_TDATA_length">
+      <obj_property name="ElementShortName">S_TDATA_length</obj_property>
+      <obj_property name="ObjectShortName">S_TDATA_length</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/opcode">
+      <obj_property name="ElementShortName">opcode[31:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/AXIS_in.S_AXIS_TDATA">
+      <obj_property name="ElementShortName">.S_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.S_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/AXIS_out.M_AXIS_TDATA">
+      <obj_property name="ElementShortName">.M_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.M_AXIS_TDATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/AXIS_in.S_AXIS_TVALID">
+      <obj_property name="ElementShortName">.S_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">.S_AXIS_TVALID</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/AXIS_out.S_AXIS_TREADY">
+      <obj_property name="ElementShortName">.S_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">.S_AXIS_TREADY</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/AXIS_out.M_AXIS_TVALID">
+      <obj_property name="ElementShortName">.M_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">.M_AXIS_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/AXIS_in.M_AXIS_TREADY">
+      <obj_property name="ElementShortName">.M_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">.M_AXIS_TREADY</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/main_state_curr">
+      <obj_property name="ElementShortName">main_state_curr</obj_property>
+      <obj_property name="ObjectShortName">main_state_curr</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/axis_unit/state_curr">
+      <obj_property name="ElementShortName">state_curr</obj_property>
+      <obj_property name="ObjectShortName">state_curr</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/axis_command">
+      <obj_property name="ElementShortName">axis_command</obj_property>
+      <obj_property name="ObjectShortName">axis_command</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/axis_task_done">
+      <obj_property name="ElementShortName">axis_task_done</obj_property>
+      <obj_property name="ObjectShortName">axis_task_done</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/uut/axis_unit/feature_ram">
+      <obj_property name="ElementShortName">feature_ram[11:0]</obj_property>
+      <obj_property name="ObjectShortName">feature_ram[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/axis_unit/label_write_req">
+      <obj_property name="ElementShortName">label_write_req</obj_property>
+      <obj_property name="ObjectShortName">label_write_req</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/feedforward_en">
+      <obj_property name="ElementShortName">feedforward_en</obj_property>
+      <obj_property name="ObjectShortName">feedforward_en</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/feedforward_new">
+      <obj_property name="ElementShortName">feedforward_new</obj_property>
+      <obj_property name="ObjectShortName">feedforward_new</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/feedforward_unit/stage1_done">
+      <obj_property name="ElementShortName">stage1_done</obj_property>
+      <obj_property name="ObjectShortName">stage1_done</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/feedforward_unit/stage2_done">
+      <obj_property name="ElementShortName">stage2_done</obj_property>
+      <obj_property name="ObjectShortName">stage2_done</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/feedforward_unit/stage3_done">
+      <obj_property name="ElementShortName">stage3_done</obj_property>
+      <obj_property name="ObjectShortName">stage3_done</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/latch_hidden_layer">
+      <obj_property name="ElementShortName">latch_hidden_layer[0:19][11:0]</obj_property>
+      <obj_property name="ObjectShortName">latch_hidden_layer[0:19][11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/uut/feedforward_out">
+      <obj_property name="ElementShortName">feedforward_out[0:1][11:0]</obj_property>
+      <obj_property name="ObjectShortName">feedforward_out[0:1][11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/feature_a_write_req">
+      <obj_property name="ElementShortName">feature_a_write_req</obj_property>
+      <obj_property name="ObjectShortName">feature_a_write_req</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/feature_f_read_req">
+      <obj_property name="ElementShortName">feature_f_read_req</obj_property>
+      <obj_property name="ObjectShortName">feature_f_read_req</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/weight1_a_write_req">
+      <obj_property name="ElementShortName">weight1_a_write_req</obj_property>
+      <obj_property name="ObjectShortName">weight1_a_write_req</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/weight1_f_read_req">
+      <obj_property name="ElementShortName">weight1_f_read_req</obj_property>
+      <obj_property name="ObjectShortName">weight1_f_read_req</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/weight2_a_write_req">
+      <obj_property name="ElementShortName">weight2_a_write_req</obj_property>
+      <obj_property name="ObjectShortName">weight2_a_write_req</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/weight2_f_read_req">
+      <obj_property name="ElementShortName">weight2_f_read_req</obj_property>
+      <obj_property name="ObjectShortName">weight2_f_read_req</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/uut/generation_unit/weight1_ram">
+      <obj_property name="ElementShortName">weight1_ram[11:0]</obj_property>
+      <obj_property name="ObjectShortName">weight1_ram[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/generation_unit/weight1_addr">
+      <obj_property name="ElementShortName">weight1_addr</obj_property>
+      <obj_property name="ObjectShortName">weight1_addr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/generation_unit/weight1_write_req">
+      <obj_property name="ElementShortName">weight1_write_req</obj_property>
+      <obj_property name="ObjectShortName">weight1_write_req</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/cnt_examples_in">
+      <obj_property name="ElementShortName">cnt_examples_in</obj_property>
+      <obj_property name="ObjectShortName">cnt_examples_in</obj_property>
+      <obj_property name="CustomSignalColor">#D2691E</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/cnt_examples_out">
+      <obj_property name="ElementShortName">cnt_examples_out</obj_property>
+      <obj_property name="ObjectShortName">cnt_examples_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/update_requested">
+      <obj_property name="ElementShortName">update_requested</obj_property>
+      <obj_property name="ObjectShortName">update_requested</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/cnt_ex_block_outdated">
+      <obj_property name="ElementShortName">cnt_ex_block_outdated</obj_property>
+      <obj_property name="ObjectShortName">cnt_ex_block_outdated</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/prediction_unit/pred_done">
+      <obj_property name="ElementShortName">pred_done</obj_property>
+      <obj_property name="ObjectShortName">pred_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/prediction_unit/pred_req">
+      <obj_property name="ElementShortName">pred_req</obj_property>
+      <obj_property name="ObjectShortName">pred_req</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/feedforward_unit/state1_curr">
+      <obj_property name="ElementShortName">state1_curr</obj_property>
+      <obj_property name="ObjectShortName">state1_curr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/feedforward_unit/stage1_en">
+      <obj_property name="ElementShortName">stage1_en</obj_property>
+      <obj_property name="ObjectShortName">stage1_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/feedforward_unit/stage1_rst">
+      <obj_property name="ElementShortName">stage1_rst</obj_property>
+      <obj_property name="ObjectShortName">stage1_rst</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/feedforward_unit/cnt_s1_features">
+      <obj_property name="ElementShortName">cnt_s1_features</obj_property>
+      <obj_property name="ObjectShortName">cnt_s1_features</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/feedforward_unit/cnt_s1_hidden">
+      <obj_property name="ElementShortName">cnt_s1_hidden</obj_property>
+      <obj_property name="ObjectShortName">cnt_s1_hidden</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/feedforward_unit/cnt_s1_delay">
+      <obj_property name="ElementShortName">cnt_s1_delay</obj_property>
+      <obj_property name="ObjectShortName">cnt_s1_delay</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/uut/feedforward_unit/weight1_ram">
+      <obj_property name="ElementShortName">weight1_ram[11:0]</obj_property>
+      <obj_property name="ObjectShortName">weight1_ram[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/feedforward_unit/weight1_addr">
+      <obj_property name="ElementShortName">weight1_addr</obj_property>
+      <obj_property name="ObjectShortName">weight1_addr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/feedforward_unit/weight1_read_req">
+      <obj_property name="ElementShortName">weight1_read_req</obj_property>
+      <obj_property name="ObjectShortName">weight1_read_req</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/buf_weight_s1">
+      <obj_property name="ElementShortName">buf_weight_s1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_weight_s1[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/buf_feat_s1">
+      <obj_property name="ElementShortName">buf_feat_s1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_feat_s1[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/prod_s1">
+      <obj_property name="ElementShortName">prod_s1[23:0]</obj_property>
+      <obj_property name="ObjectShortName">prod_s1[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/buf_prod_s1">
+      <obj_property name="ElementShortName">buf_prod_s1[23:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_prod_s1[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/sum_s1">
+      <obj_property name="ElementShortName">sum_s1[0:19][31:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_s1[0:19][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/idx_sum1_tmp1">
+      <obj_property name="ElementShortName">idx_sum1_tmp1</obj_property>
+      <obj_property name="ObjectShortName">idx_sum1_tmp1</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/idx_sum1_tmp2">
+      <obj_property name="ElementShortName">idx_sum1_tmp2</obj_property>
+      <obj_property name="ObjectShortName">idx_sum1_tmp2</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/idx_sum1_tmp3">
+      <obj_property name="ElementShortName">idx_sum1_tmp3</obj_property>
+      <obj_property name="ObjectShortName">idx_sum1_tmp3</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/feedforward_unit/weight2_addr">
+      <obj_property name="ElementShortName">weight2_addr</obj_property>
+      <obj_property name="ObjectShortName">weight2_addr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/feedforward_unit/weight2_read_req">
+      <obj_property name="ElementShortName">weight2_read_req</obj_property>
+      <obj_property name="ObjectShortName">weight2_read_req</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/weight2">
+      <obj_property name="ElementShortName">weight2[11:0]</obj_property>
+      <obj_property name="ObjectShortName">weight2[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/feedforward_unit/state3_curr">
+      <obj_property name="ElementShortName">state3_curr</obj_property>
+      <obj_property name="ObjectShortName">state3_curr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/feedforward_unit/stage3_en">
+      <obj_property name="ElementShortName">stage3_en</obj_property>
+      <obj_property name="ObjectShortName">stage3_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_main_controller_v1/uut/feedforward_unit/stage3_rst">
+      <obj_property name="ElementShortName">stage3_rst</obj_property>
+      <obj_property name="ObjectShortName">stage3_rst</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/feedforward_unit/cnt_s3_hidden">
+      <obj_property name="ElementShortName">cnt_s3_hidden</obj_property>
+      <obj_property name="ObjectShortName">cnt_s3_hidden</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/feedforward_unit/cnt_s3_out">
+      <obj_property name="ElementShortName">cnt_s3_out</obj_property>
+      <obj_property name="ObjectShortName">cnt_s3_out</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/feedforward_unit/cnt_s3_delay">
+      <obj_property name="ElementShortName">cnt_s3_delay</obj_property>
+      <obj_property name="ObjectShortName">cnt_s3_delay</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/buf_feat_s3">
+      <obj_property name="ElementShortName">buf_feat_s3[11:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_feat_s3[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/buf_weight_s3">
+      <obj_property name="ElementShortName">buf_weight_s3[11:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_weight_s3[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/prod_s3">
+      <obj_property name="ElementShortName">prod_s3[23:0]</obj_property>
+      <obj_property name="ObjectShortName">prod_s3[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/buf_prod_s3">
+      <obj_property name="ElementShortName">buf_prod_s3[23:0]</obj_property>
+      <obj_property name="ObjectShortName">buf_prod_s3[23:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/sum_s3">
+      <obj_property name="ElementShortName">sum_s3[0:1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_s3[0:1][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/idx_sum3_tmp1">
+      <obj_property name="ElementShortName">idx_sum3_tmp1</obj_property>
+      <obj_property name="ObjectShortName">idx_sum3_tmp1</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/idx_sum3_tmp2">
+      <obj_property name="ElementShortName">idx_sum3_tmp2</obj_property>
+      <obj_property name="ObjectShortName">idx_sum3_tmp2</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/idx_sum3_tmp3">
+      <obj_property name="ElementShortName">idx_sum3_tmp3</obj_property>
+      <obj_property name="ObjectShortName">idx_sum3_tmp3</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/idx_prod3_tmp1">
+      <obj_property name="ElementShortName">idx_prod3_tmp1</obj_property>
+      <obj_property name="ObjectShortName">idx_prod3_tmp1</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/idx_prod3_tmp2">
+      <obj_property name="ElementShortName">idx_prod3_tmp2</obj_property>
+      <obj_property name="ObjectShortName">idx_prod3_tmp2</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_main_controller_v1/uut/feedforward_unit/controlled_unit/latch_hidden_layer">
+      <obj_property name="ElementShortName">latch_hidden_layer[0:19][11:0]</obj_property>
+      <obj_property name="ObjectShortName">latch_hidden_layer[0:19][11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

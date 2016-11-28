@@ -1,0 +1,27 @@
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2016.2/bin/unwrapped/lnx64.o/xelab -wto c71f2a3bf1fc4951bd64646b58672c01 --debug typical --relax --mt 8 -L work -L xil_defaultlib -L secureip --snapshot test_main_controller_v1_behav xil_defaultlib.test_main_controller_v1 -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package work.utility
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture version1 of entity xil_defaultlib.sigmoid [sigmoid_default]
+Compiling architecture version1 of entity xil_defaultlib.feedforward_dataflow [\feedforward_dataflow(nb_hidden_...]
+Compiling architecture version1 of entity xil_defaultlib.feedforward_controller [\feedforward_controller(nb_featu...]
+Compiling architecture version1 of entity xil_defaultlib.back_prop_dataflow [\back_prop_dataflow(nb_hidden_no...]
+Compiling architecture version_1 of entity xil_defaultlib.back_prop_controller [\back_prop_controller(nb_hidden_...]
+Compiling architecture version1 of entity xil_defaultlib.AXIS_controller [\AXIS_controller(nb_features=13,...]
+Compiling architecture imp_lfsr_counter of entity xil_defaultlib.lfsr_counter [lfsr_counter_default]
+Compiling architecture version1 of entity xil_defaultlib.weights_generator [\weights_generator(nb_output_nod...]
+Compiling architecture version1 of entity xil_defaultlib.prediction [\prediction(single_ended=false,n...]
+Compiling architecture implementation of entity xil_defaultlib.main_controller [\main_controller(nb_features=13,...]
+Compiling architecture behavioral of entity xil_defaultlib.test_main_controller_v1
+Built simulation snapshot test_main_controller_v1_behav

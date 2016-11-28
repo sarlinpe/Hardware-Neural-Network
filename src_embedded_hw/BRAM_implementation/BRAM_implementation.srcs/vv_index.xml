@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Index Version="1" Minor="0">
+	<Repository value="/home/pe_s/Documents/EHSD/Project/Hardware_designs/BRAM_implementation/BRAM_implementation.srcs">
+	</Repository>
+	<IP>
+		<VLNV value="user.org:user:AXIS_MLP_NN_BRAM_imp:1.0">
+		</VLNV>
+		<DisplayName value="AXIS_MLP_NN_BRAM_imp">
+		</DisplayName>
+		<Description value="AXIS_MLP_NN_BRAM_imp">
+		</Description>
+		<CoreRevision value="4">
+		</CoreRevision>
+		<ComponentPath value="component.xml">
+		</ComponentPath>
+		<Families>
+			<Family name="zynq">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+		</Families>
+		<Taxonomies>
+			<Taxonomy value="/UserIP">
+			</Taxonomy>
+		</Taxonomies>
+		<LockPrevVersions value="false">
+		</LockPrevVersions>
+		<Interfaces>
+			<Interface value="AXI4-Stream">
+			</Interface>
+		</Interfaces>
+	</IP>
+	<IP>
+		<VLNV value="user.org:user:AXIS_MLP_Neural_Network:1.0">
+		</VLNV>
+		<DisplayName value="AXIS_MLP_Neural_Network">
+		</DisplayName>
+		<Description value="AXIS_MLP_Neural_Network">
+		</Description>
+		<ManuallyDisabled value="true">
+		</ManuallyDisabled>
+		<CoreRevision value="74">
+		</CoreRevision>
+		<ComponentPath value="sources_1/imports/project_module_workspace/component.xml">
+		</ComponentPath>
+		<Families>
+			<Family name="zynq">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+		</Families>
+		<Taxonomies>
+			<Taxonomy value="/UserIP">
+			</Taxonomy>
+		</Taxonomies>
+		<LockPrevVersions value="false">
+		</LockPrevVersions>
+		<Interfaces>
+			<Interface value="AXI4-Stream">
+			</Interface>
+		</Interfaces>
+	</IP>
+</Index>
+

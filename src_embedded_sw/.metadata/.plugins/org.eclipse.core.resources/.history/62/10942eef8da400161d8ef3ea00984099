@@ -1,0 +1,20 @@
+#ifndef SRC_SW_IMP_HPP_
+#define SRC_SW_IMP_HPP_
+
+#include <math.h>
+#include "xparameters.h"
+#include "xil_printf.h"
+#include "xtime_l.h"
+#include "Dense"
+
+#include "main.hpp"
+
+using namespace Eigen;
+
+typedef Matrix<u8, Dynamic, Dynamic, Eigen::RowMajor> Data_T;
+
+void sw_load_weights(u16* weights);
+void sw_feedforward(const Ref<const Data_T> data_in, Ref<MatrixXf> h);
+float sw_igmoid(float x);
+
+#endif

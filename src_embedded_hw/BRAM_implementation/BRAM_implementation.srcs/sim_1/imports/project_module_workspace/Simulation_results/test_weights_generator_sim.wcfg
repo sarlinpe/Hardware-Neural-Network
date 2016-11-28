@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_weights_generator_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="test_weights_generator" />
+            <top_module name="utility" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="3500000001fs"></ZoomEndTime>
+      <Cursor1Time time="1028161000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="14" />
+   <wvobject type="array" fp_name="/test_weights_generator/weights1_RAM">
+      <obj_property name="ElementShortName">weights1_RAM[0:17][11:0]</obj_property>
+      <obj_property name="ObjectShortName">weights1_RAM[0:17][11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_weights_generator/weights2_RAM">
+      <obj_property name="ElementShortName">weights2_RAM[0:3][11:0]</obj_property>
+      <obj_property name="ObjectShortName">weights2_RAM[0:3][11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_weights_generator/weight1_ram">
+      <obj_property name="ElementShortName">weight1_ram[11:0]</obj_property>
+      <obj_property name="ObjectShortName">weight1_ram[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_weights_generator/weight2_ram">
+      <obj_property name="ElementShortName">weight2_ram[11:0]</obj_property>
+      <obj_property name="ObjectShortName">weight2_ram[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_weights_generator/weight1_write_req">
+      <obj_property name="ElementShortName">weight1_write_req</obj_property>
+      <obj_property name="ObjectShortName">weight1_write_req</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_weights_generator/weight2_write_req">
+      <obj_property name="ElementShortName">weight2_write_req</obj_property>
+      <obj_property name="ObjectShortName">weight2_write_req</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_weights_generator/weight1_addr">
+      <obj_property name="ElementShortName">weight1_addr</obj_property>
+      <obj_property name="ObjectShortName">weight1_addr</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_weights_generator/weight2_addr">
+      <obj_property name="ElementShortName">weight2_addr</obj_property>
+      <obj_property name="ObjectShortName">weight2_addr</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_weights_generator/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_weights_generator/gen_req">
+      <obj_property name="ElementShortName">gen_req</obj_property>
+      <obj_property name="ObjectShortName">gen_req</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_weights_generator/done">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_weights_generator/uut/state_curr">
+      <obj_property name="ElementShortName">state_curr</obj_property>
+      <obj_property name="ObjectShortName">state_curr</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_weights_generator/uut/cnt_weights">
+      <obj_property name="ElementShortName">cnt_weights</obj_property>
+      <obj_property name="ObjectShortName">cnt_weights</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_weights_generator/uut/RNG_unit/count">
+      <obj_property name="ElementShortName">count[11:0]</obj_property>
+      <obj_property name="ObjectShortName">count[11:0]</obj_property>
+   </wvobject>
+</wave_config>

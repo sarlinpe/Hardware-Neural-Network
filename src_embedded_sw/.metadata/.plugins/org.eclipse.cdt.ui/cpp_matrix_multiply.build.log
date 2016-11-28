@@ -1,0 +1,8 @@
+00:02:44 **** Incremental Build of configuration Debug for project cpp_matrix_multiply ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for `main-build'.
+
+00:02:44 Build Finished (took 78ms)
+

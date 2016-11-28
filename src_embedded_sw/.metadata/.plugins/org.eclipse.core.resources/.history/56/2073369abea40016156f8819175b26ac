@@ -1,0 +1,153 @@
+#include "sw_imp.hpp"
+
+#define WEIGHTS_INIT_EPS	0.12
+#define LEARNING_RATE		0.0005
+
+Matrix<float, NB_HIDDEN_NODES, NB_FEATURES + 1, RowMajor> Theta1;
+Matrix<float, NB_OUTPUT_NODES, NB_HIDDEN_NODES + 1, RowMajor> Theta2;
+
+
+/* Post-processing functions */
+void sw_load_weights(u16* weights) {
+	xil_printf("Start to load weights\n\r");
+	float* weight2_addr = (float*)(weights + NB_WEIGHTS1*sizeof(u16));
+
+	Matrix<u16, NB_HIDDEN_NODES, NB_FEATURES + 1, RowMajor> tmp1 = Eigen::Map< Matrix<u16, NB_HIDDEN_NODES, NB_FEATURES + 1, RowMajor> >( weights);
+	Matrix<u16, NB_OUTPUT_NODES, NB_HIDDEN_NODES + 1, RowMajor> tmp1 = Eigen::Map< Matrix<u16, NB_OUTPUT_NODES, NB_HIDDEN_NODES + 1, RowMajor> >(weights + NB_WEIGHTS1*sizeof(u16));
+
+	Theta1 = Eigen::Map< Matrix<u16, NB_HIDDEN_NODES, NB_FEATURES + 1, RowMajor> >( weights);//(float*)weights );
+	Theta2 = Eigen::Map< Matrix<u16, NB_OUTPUT_NODES, NB_HIDDEN_NODES + 1, RowMajor> >( weights + NB_WEIGHTS1*sizeof(u16));//(float*)(weights + NB_WEIGHTS1*sizeof(u16)) );
+
+	int i;
+	for(i = 0; i < (NB_WEIGHTS1 + NB_WEIGHTS2); i++) {
+		xil_printf("%d,", weights[i]);
+	}
+
+	/* Scale to [0;2] */
+	Theta1 = Theta1 / pow(2,11);
+	Theta2 = Theta2 / pow(2,11);
+
+	/* Shift to center around 0 */
+	Theta1.array() -= 1;
+	Theta2.array() -= 1;
+}
+
+void sw_rand_weights() {
+    // Generate seed for the random number generator
+    u64 actual_time;
+    XTime_GetTime(&actual_time);
+    std::srand((u32) (actual_time >> 0));
+
+    // Initialize weights
+    Theta1.setRandom();
+    Theta2.setRandom();
+    Theta1 = WEIGHTS_INIT_EPS*Theta1;
+    Theta2 = WEIGHTS_INIT_EPS*Theta2;
+}
+
+float sw_train(u8* features, u8* labels, u16 nb_ex, u16 nb_iterations) {
+	Data_t a_1(nb_ex, NB_FEATURES + 1);
+    MatrixXf a_2(nb_ex, NB_HIDDEN_NODES + 1);
+    MatrixXf z_1(nb_ex, NB_HIDDEN_NODES);
+    MatrixXf z_2(nb_ex, NB_CLASSES);
+    MatrixXf h(nb_ex, NB_CLASSES);
+
+    Data_t y_logic(nb_ex, NB_CLASSES);
+    MatrixXf delta_2(nb_ex, NB_HIDDEN_NODES);
+    MatrixXf delta_3(nb_ex, NB_CLASSES);
+
+    u32 i;
+    float cost = 0;
+
+    a_1.col(0).setOnes();
+    a_2.col(0).setOnes();
+    a_1.block(0,1, nb_ex, NB_FEATURES) = Map<Data_t>(features, nb_ex, NB_FEATURES);
+    y_logic.setZero();
+    for(i = 0; i < nb_ex; i++) {
+        y_logic(i,labels[i]-1) = 1;
+    }
+
+    for(i = 0; i < nb_iterations; i++) {
+		z_1 = a_1.cast<float>() * Theta1.transpose();
+		a_2.block(0,1, nb_ex, NB_HIDDEN_NODES) = z_1.unaryExpr(&sw_sigmoid);
+		z_2 = a_2 * Theta2.transpose();
+		h = z_2.unaryExpr(&sw_sigmoid);
+
+		// Gradient
+		delta_3 = h - y_logic.cast<float>();
+		delta_2 = delta_3 * Theta2.block<NB_CLASSES, NB_HIDDEN_NODES>(0,1);
+		delta_2 = delta_2.cwiseProduct(a_2.block(0,1,nb_ex,NB_HIDDEN_NODES));
+		delta_2 = delta_2.cwiseProduct(MatrixXf::Ones(nb_ex,NB_HIDDEN_NODES) - a_2.block(0,1,nb_ex,NB_HIDDEN_NODES));
+
+		Theta1 = Theta1 - LEARNING_RATE * delta_2.transpose()*a_1.cast<float>();
+		Theta2 = Theta2 - LEARNING_RATE * delta_3.transpose()*a_2.cast<float>();
+
+		cost = delta_3.array().pow(2).sum();
+		if ((i % 10) == 0) {
+			xil_printf("%cIteration %u, Cost: %u\n\r",c_TERM_OUT,i,u32(cost*100));
+		}
+	}
+
+    Matrix<u8, Dynamic, 1> y_pred(nb_ex);
+    float accuracy = 0;
+    for(i = 0; i < nb_ex; i++) {
+        h.row(i).maxCoeff( &y_pred(i,0) );
+        accuracy += ((y_pred(i,0)+1) == labels[i]);
+    }
+    accuracy *= 100./nb_ex;
+
+    return accuracy;
+    //xil_printf("%cTraining Set Accuracy: %u\n\r", c_TERM_OUT, u32(accuracy));
+}
+
+void sw_predict(u8* features, u8* results, u16 nb_ex)
+{
+	Data_t a_1(nb_ex, NB_FEATURES + 1);
+    MatrixXf a_2(nb_ex, NB_HIDDEN_NODES + 1);
+    MatrixXf z_1(nb_ex, NB_HIDDEN_NODES);
+    MatrixXf z_2(nb_ex, NB_CLASSES);
+    MatrixXf h(nb_ex, NB_CLASSES);
+
+    a_1.col(0).setOnes();
+    a_2.col(0).setOnes();
+    a_1.block(0,1, nb_ex, NB_FEATURES) = Map<Data_t>(features, nb_ex, NB_FEATURES);
+
+	z_1 = a_1.cast<float>() * Theta1.transpose();
+	a_2.block(0,1, nb_ex, NB_HIDDEN_NODES) = z_1.unaryExpr(&sw_sigmoid);
+	z_2 = a_2 * Theta2.transpose();
+	h = z_2.unaryExpr(&sw_sigmoid);
+
+	u32 i;
+	for(i = 0; i < nb_ex; i++) {
+		h.row(i).maxCoeff( &(results[i]) );
+	}
+}
+
+//float Compute_accuracy(u8* features, u8* labels, u16 nb_examples)
+//{
+//
+//}
+
+//void sw_feedforward(const Ref<const Data_t> data, Ref<MatrixXf> h)
+//{
+//	u32 size = static_cast<float>(data.rows());
+//
+//    Data_t a_1(size, NB_FEATURES + 1);
+//    MatrixXf a_2(size, NB_HIDDEN_NODES + 1);
+//    MatrixXf z_1(size, NB_HIDDEN_NODES);
+//    MatrixXf z_2(size, NB_OUTPUT_NODES);
+//
+//    a_1 = data;
+//    a_1.col(0).setOnes();
+//    a_2.col(0).setOnes();
+//
+//    z_1 = a_1.cast<float>() * Theta1.transpose();
+//    a_2.block(0,1, size, NB_HIDDEN_NODES) = z_1.unaryExpr(&sw_sigmoid);
+//    z_2 = a_2 * Theta2.transpose();
+//    h = z_2.unaryExpr(&sw_sigmoid);
+//}
+
+float sw_sigmoid(float x)
+{
+    return 1/(1 + std::exp(-x) );
+}

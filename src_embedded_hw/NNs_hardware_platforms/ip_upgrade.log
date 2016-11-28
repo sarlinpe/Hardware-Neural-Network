@@ -1,0 +1,1488 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov 12 23:48:27 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 73) to (Rev. 74)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov 12 23:38:47 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_distributed_AXIS_MLP_Neural_Network_distr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_distributed_AXIS_MLP_Neural_Network_distr_0_0 (user.org:user:AXIS_MLP_Neural_Network_distr:1.0) from (Rev. 6) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov 12 22:42:16 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 71) to (Rev. 73)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov 12 22:12:04 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 69) to (Rev. 71)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov 12 21:45:59 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 68) to (Rev. 69)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov 12 20:52:17 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 65) to (Rev. 68)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov 12 20:00:19 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 64) to (Rev. 65)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov 12 19:57:25 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 63) to (Rev. 64)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov 12 18:14:48 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 61) to (Rev. 63)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov 12 16:15:17 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 58) to (Rev. 61)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov 12 15:15:38 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 57) to (Rev. 58)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov 12 14:58:32 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 56) to (Rev. 57)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov 12 12:28:25 2016
+| Host         : Paul-Edouard running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 55) to (Rev. 56)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov 12 09:14:02 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 54) to (Rev. 55)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Fri Nov 11 22:59:32 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_distributed_AXIS_MLP_Neural_Network_distr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_distributed_AXIS_MLP_Neural_Network_distr_0_0 (user.org:user:AXIS_MLP_Neural_Network_distr:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Fri Nov 11 17:48:05 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_distributed_AXIS_MLP_Neural_Network_distr_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_distributed_AXIS_MLP_Neural_Network_distr_0_0 (user.org:user:AXIS_MLP_Neural_Network_distr:1.0) from (Rev. 2) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Wed Nov  9 07:02:36 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 53) to (Rev. 54)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Wed Nov  9 06:26:17 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 51) to (Rev. 53)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Wed Nov  9 05:45:19 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 50) to (Rev. 51)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Wed Nov  9 05:04:40 2016
+| Host         : Paul-Edouard running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 49) to (Rev. 50)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Wed Nov  9 03:49:33 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 48) to (Rev. 49)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Wed Nov  9 02:48:47 2016
+| Host         : Paul-Edouard running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 47) to (Rev. 48)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Wed Nov  9 00:53:23 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 46) to (Rev. 47)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Tue Nov  8 23:59:49 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 45) to (Rev. 46)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Tue Nov  8 23:57:16 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 44) to (Rev. 45)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Tue Nov  8 19:24:16 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 43) to (Rev. 44)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Tue Nov  8 17:57:47 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 42) to (Rev. 43)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Tue Nov  8 17:30:20 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 41) to (Rev. 42)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Tue Nov  8 15:42:35 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 40) to (Rev. 41)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Tue Nov  8 15:34:15 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 39) to (Rev. 40)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Tue Nov  8 15:29:37 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 38) to (Rev. 39)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Tue Nov  8 14:03:10 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 37) to (Rev. 38)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'LED_8'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sun Nov  6 16:28:40 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 36) to (Rev. 37)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sun Nov  6 13:37:55 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 35) to (Rev. 36)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov  5 22:53:01 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 34) to (Rev. 35)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov  5 22:31:22 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 33) to (Rev. 34)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov  5 22:02:13 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0 (Rev. 33)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov  5 21:38:02 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 32) to (Rev. 33)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov  5 19:38:49 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 31) to (Rev. 32)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov  5 14:27:12 2016
+| Host         : Paul-Edouard running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 30) to (Rev. 31)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov  5 10:50:59 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 29) to (Rev. 30)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov  5 10:10:24 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 28) to (Rev. 29)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov  5 03:46:13 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 27) to (Rev. 28)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov  5 03:09:13 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 26) to (Rev. 27)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov  5 00:46:30 2016
+| Host         : Paul-Edouard running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 25) to (Rev. 26)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Sat Nov  5 00:19:54 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 24) to (Rev. 25)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Thu Nov  3 23:29:29 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 23) to (Rev. 24)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Thu Nov  3 18:01:43 2016
+| Host         : Paul-Edouard running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 22) to (Rev. 23)
+
+After upgrade, an IP may have parameter differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality.
+
+2. Customization warnings
+-------------------------
+
+Parameter 'nb_features' is no longer present on the upgraded IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0', and cannot be set to '13'
+
+Parameter 'nb_hidden_nodes' is no longer present on the upgraded IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0', and cannot be set to '20'
+
+Parameter 'nb_classes' is no longer present on the upgraded IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0', and cannot be set to '3'
+
+Parameter 'single_ended' is no longer present on the upgraded IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0', and cannot be set to 'true'
+
+Parameter 'nb_examples_max' is no longer present on the upgraded IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0', and cannot be set to '200'
+
+Parameter 'examples_block_size' is no longer present on the upgraded IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0', and cannot be set to '8'
+
+Parameter 'axis_data_width' is no longer present on the upgraded IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0', and cannot be set to '32'
+
+
+3. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  You may consult any warnings from within this upgrade, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv user.org:user:AXIS_MLP_Neural_Network:1.0 -user_name PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0
+set_property -dict "\
+  CONFIG.Component_Name PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 " [get_ips PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0]
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Thu Nov  3 17:48:51 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 21) to (Rev. 22)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Thu Nov  3 15:20:37 2016
+| Host         : Paul-Edouard running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 19) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Thu Nov  3 15:19:53 2016
+| Host         : Paul-Edouard running 64-bit unknown
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 17) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Thu Nov  3 14:31:38 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0 (Rev. 17)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Thu Nov  3 13:15:32 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0 (Rev. 17)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Thu Nov  3 13:10:16 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0 (Rev. 17)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Thu Nov  3 09:27:55 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 15) to (Rev. 17)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'LED_8'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Thu Nov  3 02:44:20 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 14) to (Rev. 15)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Thu Nov  3 01:49:23 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 12) to (Rev. 14)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Wed Nov  2 16:44:48 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the update of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0 (Rev. 12)) to current project options.
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Wed Nov  2 11:37:43 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 11) to (Rev. 12)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Wed Nov  2 11:34:39 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 9) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Wed Nov  2 03:50:10 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 8) to (Rev. 9)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Wed Nov  2 01:02:54 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 7) to (Rev. 8)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Wed Nov  2 00:41:57 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 6) to (Rev. 7)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'LED_3'
+
+-Upgrade has added port 'LED_4'
+
+-Upgrade has added port 'LED_5'
+
+-Upgrade has added port 'LED_6'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Wed Nov  2 00:38:29 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Tue Nov  1 23:49:48 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 4) to (Rev. 5)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Tue Nov  1 22:30:13 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Tue Nov  1 22:28:49 2016
+| Host         : Paul-Edouard running 64-bit Ubuntu 14.04.5 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0 (user.org:user:AXIS_MLP_Neural_Network:1.0) from (Rev. 2) to (Rev. 3)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'PS_PL_coprocessing_AXIS_MLP_Neural_Network_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'LED_1'
+
+-Upgrade has added port 'LED_2'
+
+

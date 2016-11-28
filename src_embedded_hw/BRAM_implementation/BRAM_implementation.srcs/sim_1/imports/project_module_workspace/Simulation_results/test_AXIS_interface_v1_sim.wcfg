@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_AXIS_interface_v1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="test_AXIS_interface_v1" />
+            <top_module name="utility" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="41860666fs"></ZoomStartTime>
+      <ZoomEndTime time="2841860667fs"></ZoomEndTime>
+      <Cursor1Time time="2100775000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="21" />
+   <wvobject type="logic" fp_name="/test_AXIS_interface_v1/ACLK">
+      <obj_property name="ElementShortName">ACLK</obj_property>
+      <obj_property name="ObjectShortName">ACLK</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_AXIS_interface_v1/ARESETN">
+      <obj_property name="ElementShortName">ARESETN</obj_property>
+      <obj_property name="ObjectShortName">ARESETN</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_AXIS_interface_v1/S_AXIS_TREADY">
+      <obj_property name="ElementShortName">S_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TREADY</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_AXIS_interface_v1/S_AXIS_TLAST">
+      <obj_property name="ElementShortName">S_AXIS_TLAST</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TLAST</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_AXIS_interface_v1/S_AXIS_TVALID">
+      <obj_property name="ElementShortName">S_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TVALID</obj_property>
+      <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_AXIS_interface_v1/S_AXIS_TDATA">
+      <obj_property name="ElementShortName">S_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_AXIS_interface_v1/start_new_session">
+      <obj_property name="ElementShortName">start_new_session</obj_property>
+      <obj_property name="ObjectShortName">start_new_session</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_AXIS_interface_v1/read_next_examples">
+      <obj_property name="ElementShortName">read_next_examples</obj_property>
+      <obj_property name="ObjectShortName">read_next_examples</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_AXIS_interface_v1/examples_block_done">
+      <obj_property name="ElementShortName">examples_block_done</obj_property>
+      <obj_property name="ObjectShortName">examples_block_done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_AXIS_interface_v1/M_features">
+      <obj_property name="ElementShortName">M_features[0:12][7:0]</obj_property>
+      <obj_property name="ObjectShortName">M_features[0:12][7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_AXIS_interface_v1/M_labels">
+      <obj_property name="ElementShortName">M_labels[3:0]</obj_property>
+      <obj_property name="ObjectShortName">M_labels[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_AXIS_interface_v1/M_opcode">
+      <obj_property name="ElementShortName">M_opcode[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_opcode[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_AXIS_interface_v1/uut/weights1">
+      <obj_property name="ElementShortName">weights1[0:69][11:0]</obj_property>
+      <obj_property name="ObjectShortName">weights1[0:69][11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_AXIS_interface_v1/uut/weights2">
+      <obj_property name="ElementShortName">weights2[0:5][11:0]</obj_property>
+      <obj_property name="ObjectShortName">weights2[0:5][11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_AXIS_interface_v1/uut/features">
+      <obj_property name="ElementShortName">features[0:12][11:0]</obj_property>
+      <obj_property name="ObjectShortName">features[0:12][11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_AXIS_interface_v1/uut/labels">
+      <obj_property name="ElementShortName">labels[0:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">labels[0:0][3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_AXIS_interface_v1/uut/state">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_AXIS_interface_v1/uut/c_features_block">
+      <obj_property name="ElementShortName">c_features_block</obj_property>
+      <obj_property name="ObjectShortName">c_features_block</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_AXIS_interface_v1/uut/c_examples">
+      <obj_property name="ElementShortName">c_examples</obj_property>
+      <obj_property name="ObjectShortName">c_examples</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_AXIS_interface_v1/uut/c_weights">
+      <obj_property name="ElementShortName">c_weights</obj_property>
+      <obj_property name="ObjectShortName">c_weights</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_AXIS_interface_v1/uut/read_features_MSB">
+      <obj_property name="ElementShortName">read_features_MSB</obj_property>
+      <obj_property name="ObjectShortName">read_features_MSB</obj_property>
+   </wvobject>
+</wave_config>

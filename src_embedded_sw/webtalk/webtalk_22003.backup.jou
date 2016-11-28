@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:35 MDT 2016
+# 
+# Start of session at: Mon Nov  7 04:20:47 2016
+# Process ID: 22003
+# Current directory: /home/pe_s/Documents/EHSD/Project/ARM_code/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/pe_s/Documents/EHSD/Project/ARM_code/webtalk/webtalk.log
+# Journal file: /home/pe_s/Documents/EHSD/Project/ARM_code/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

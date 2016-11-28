@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "test_main_controller_v1_func_synth.vhd"
+vhdl xil_defaultlib  "../../../../project_module_workspace.srcs/sim_1/new/test_main_controller_v1.vhd"
+
+# Do not sort compile order
+nosort

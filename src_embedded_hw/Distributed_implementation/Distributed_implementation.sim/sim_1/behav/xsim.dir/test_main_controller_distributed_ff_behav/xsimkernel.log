@@ -1,0 +1,7 @@
+Running: xsim.dir/test_main_controller_distributed_ff_behav/xsimk -simmode gui -wdb test_main_controller_distributed_ff_behav.wdb -simrunnum 0 -socket 44099
+Design successfully loaded
+Design Loading Memory Usage: 53232 KB (Peak: 53356 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 143172 KB (Peak: 200508 KB)
+Simulation CPU Usage: 10 ms

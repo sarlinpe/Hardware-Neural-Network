@@ -1,0 +1,10 @@
+int ceil_div(int num, int den)
+{
+	int i = 0;
+	while(1) {
+		if(num <= (den*i)) {
+			return i;
+		}
+		i++;
+	}
+}

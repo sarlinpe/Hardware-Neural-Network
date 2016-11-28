@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_feedforward_controller_stage3_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="test_feedforward_controller_stage3" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="5500000001fs"></ZoomEndTime>
+      <Cursor1Time time="5500000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="35" />
+   <wvobject type="array" fp_name="/test_feedforward_controller_stage3/features_RAM">
+      <obj_property name="ElementShortName">features_RAM[0:2]</obj_property>
+      <obj_property name="ObjectShortName">features_RAM[0:2]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_feedforward_controller_stage3/weights1_RAM">
+      <obj_property name="ElementShortName">weights1_RAM[0:11]</obj_property>
+      <obj_property name="ObjectShortName">weights1_RAM[0:11]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_feedforward_controller_stage3/weights2_RAM">
+      <obj_property name="ElementShortName">weights2_RAM[0:3]</obj_property>
+      <obj_property name="ObjectShortName">weights2_RAM[0:3]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_feedforward_controller_stage3/feature_ram">
+      <obj_property name="ElementShortName">feature_ram[11:0]</obj_property>
+      <obj_property name="ObjectShortName">feature_ram[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_feedforward_controller_stage3/weight1_ram">
+      <obj_property name="ElementShortName">weight1_ram[11:0]</obj_property>
+      <obj_property name="ObjectShortName">weight1_ram[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_feedforward_controller_stage3/weight2_ram">
+      <obj_property name="ElementShortName">weight2_ram[11:0]</obj_property>
+      <obj_property name="ObjectShortName">weight2_ram[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_feedforward_controller_stage3/feature_read_req">
+      <obj_property name="ElementShortName">feature_read_req</obj_property>
+      <obj_property name="ObjectShortName">feature_read_req</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_feedforward_controller_stage3/weight1_read_req">
+      <obj_property name="ElementShortName">weight1_read_req</obj_property>
+      <obj_property name="ObjectShortName">weight1_read_req</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_feedforward_controller_stage3/weight2_read_req">
+      <obj_property name="ElementShortName">weight2_read_req</obj_property>
+      <obj_property name="ObjectShortName">weight2_read_req</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_feedforward_controller_stage3/feature_addr">
+      <obj_property name="ElementShortName">feature_addr</obj_property>
+      <obj_property name="ObjectShortName">feature_addr</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_feedforward_controller_stage3/weight1_addr">
+      <obj_property name="ElementShortName">weight1_addr</obj_property>
+      <obj_property name="ObjectShortName">weight1_addr</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_feedforward_controller_stage3/weight2_addr">
+      <obj_property name="ElementShortName">weight2_addr</obj_property>
+      <obj_property name="ObjectShortName">weight2_addr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_feedforward_controller_stage3/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_feedforward_controller_stage3/feedforward_new">
+      <obj_property name="ElementShortName">feedforward_new</obj_property>
+      <obj_property name="ObjectShortName">feedforward_new</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_feedforward_controller_stage3/feature_read_req_buf">
+      <obj_property name="ElementShortName">feature_read_req_buf</obj_property>
+      <obj_property name="ObjectShortName">feature_read_req_buf</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_feedforward_controller_stage3/weight1_read_req_buf">
+      <obj_property name="ElementShortName">weight1_read_req_buf</obj_property>
+      <obj_property name="ObjectShortName">weight1_read_req_buf</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_feedforward_controller_stage3/weight2_read_req_buf">
+      <obj_property name="ElementShortName">weight2_read_req_buf</obj_property>
+      <obj_property name="ObjectShortName">weight2_read_req_buf</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_feedforward_controller_stage3/feature_addr_buf">
+      <obj_property name="ElementShortName">feature_addr_buf</obj_property>
+      <obj_property name="ObjectShortName">feature_addr_buf</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_feedforward_controller_stage3/weight1_addr_buf">
+      <obj_property name="ElementShortName">weight1_addr_buf</obj_property>
+      <obj_property name="ObjectShortName">weight1_addr_buf</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_feedforward_controller_stage3/weight2_addr_buf">
+      <obj_property name="ElementShortName">weight2_addr_buf</obj_property>
+      <obj_property name="ObjectShortName">weight2_addr_buf</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_feedforward_controller_stage3/stage3_done">
+      <obj_property name="ElementShortName">stage3_done</obj_property>
+      <obj_property name="ObjectShortName">stage3_done</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_feedforward_controller_stage3/uut/stage1_done">
+      <obj_property name="ElementShortName">stage1_done</obj_property>
+      <obj_property name="ObjectShortName">stage1_done</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_feedforward_controller_stage3/uut/stage2_done">
+      <obj_property name="ElementShortName">stage2_done</obj_property>
+      <obj_property name="ObjectShortName">stage2_done</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_feedforward_controller_stage3/uut/feature">
+      <obj_property name="ElementShortName">feature[11:0]</obj_property>
+      <obj_property name="ObjectShortName">feature[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_feedforward_controller_stage3/uut/hidden_idx">
+      <obj_property name="ElementShortName">hidden_idx</obj_property>
+      <obj_property name="ObjectShortName">hidden_idx</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_feedforward_controller_stage3/uut/controlled_unit/latch_hidden_layer">
+      <obj_property name="ElementShortName">latch_hidden_layer[0:2][11:0]</obj_property>
+      <obj_property name="ObjectShortName">latch_hidden_layer[0:2][11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_feedforward_controller_stage3/uut/controlled_unit/activ1_in">
+      <obj_property name="ElementShortName">activ1_in[0:2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">activ1_in[0:2][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_feedforward_controller_stage3/uut/controlled_unit/activ1_out">
+      <obj_property name="ElementShortName">activ1_out[0:2][11:0]</obj_property>
+      <obj_property name="ObjectShortName">activ1_out[0:2][11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_feedforward_controller_stage3/uut/state1_curr">
+      <obj_property name="ElementShortName">state1_curr</obj_property>
+      <obj_property name="ObjectShortName">state1_curr</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_feedforward_controller_stage3/uut/state2_curr">
+      <obj_property name="ElementShortName">state2_curr</obj_property>
+      <obj_property name="ObjectShortName">state2_curr</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_feedforward_controller_stage3/uut/state3_curr">
+      <obj_property name="ElementShortName">state3_curr</obj_property>
+      <obj_property name="ObjectShortName">state3_curr</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_feedforward_controller_stage3/uut/controlled_unit/prod_3">
+      <obj_property name="ElementShortName">prod_3[23:0]</obj_property>
+      <obj_property name="ObjectShortName">prod_3[23:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_feedforward_controller_stage3/uut/controlled_unit/sum_3">
+      <obj_property name="ElementShortName">sum_3[0:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_3[0:0][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_feedforward_controller_stage3/uut/weight2_read_req">
+      <obj_property name="ElementShortName">weight2_read_req</obj_property>
+      <obj_property name="ObjectShortName">weight2_read_req</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_feedforward_controller_stage3/uut/controlled_unit/weight2">
+      <obj_property name="ElementShortName">weight2[11:0]</obj_property>
+      <obj_property name="ObjectShortName">weight2[11:0]</obj_property>
+   </wvobject>
+</wave_config>

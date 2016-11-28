@@ -1,0 +1,8 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+#define NB_FEATURES				13
+#define NB_HIDDEN_NODES			1
+#define NB_CLASSES				4
+#define SINGLE_ENDED			1
+#endif

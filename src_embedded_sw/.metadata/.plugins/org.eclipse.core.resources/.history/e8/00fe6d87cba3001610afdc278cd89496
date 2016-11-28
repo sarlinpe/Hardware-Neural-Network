@@ -1,0 +1,114 @@
+//#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+#include "xparameters.h"
+#include "xil_printf.h"
+
+#define NB_FEATURES				13
+#define NB_HIDDEN_NODES			20
+#define NB_CLASSES				4
+#define SINGLE_ENDED			1
+
+#define NB_OUTPUT_NODES			(SINGLE_ENDED ? 1 : NB_CLASSES)
+
+#define c_TERM_OUT 				'$'
+#define c_ACK 					'%'
+#define c_ERR 					'@'
+#define c_END					'&'
+
+void decode_opcode();
+
+enum session_t {TRAINING, PREDICTION};
+enum option_t {GIVEN, RAND, PREV};
+enum state_t {Get_opcode, Get_data, Process, Send_result};
+session_t session;
+option_t option;
+state_t state = Get_opcode;
+
+u32 opcode = 0;
+u16 nb_examples = 0;
+
+u8 *features, *labels = NULL;
+u16 *weights = NULL;
+
+int main()
+{
+	u32 i, j;
+
+	for(i = 0; i < 4; i++) {
+		opcode |= u8(inbyte()) << i*8;
+	}
+	outbyte(c_ACK);
+
+	decode_opcode();
+
+	features = (u8*) malloc(nb_examples*NB_FEATURES*sizeof(u8));
+
+	for(i = 0; i < nb_examples; i++) {
+		for(j = 0; j < NB_FEATURES; j++) {
+			features[i*NB_FEATURES + j] = u8(inbyte());
+		}
+		outbyte(c_ACK);
+	}
+
+
+	xil_printf("%cFirst feature: %d\n",c_TERM_OUT,features[0]);
+	xil_printf("%cLast feature: %d\n",c_TERM_OUT,features[NB_FEATURES - 1]);
+
+	outbyte(c_END);
+	//xil_printf("$Exiting...\n");
+	return 0;
+}
+
+void decode_opcode()
+{
+	switch((opcode >> 19) & 1) {
+	case 0:
+		session = TRAINING;
+		break;
+	default:
+		session = PREDICTION;
+		break;
+	}
+
+	switch((opcode >> 16) & 0x3) {
+	case 0:
+		option = GIVEN;
+		break;
+	case 1:
+		option = RAND;
+		break;
+	default:
+		option = PREV;
+		break;
+	}
+
+	nb_examples = opcode & 0xFFFF;
+}
+
+void get_data()
+{
+	u32 i,j;
+
+	features = (u8*) malloc(nb_examples*NB_FEATURES*sizeof(u8));
+	if(session == TRAINING)
+		labels = (u8*) malloc(nb_examples*sizeof(u8));
+	if(option == GIVEN)
+		weights = (u16*) malloc(nb_features)
+
+	if(option == GIVEN) {
+
+	}
+
+	for(i = 0; i < nb_examples; i++) {
+		for(j = 0; j < NB_FEATURES; j++) {
+			features[i*NB_FEATURES + j] = u8(inbyte());
+		}
+		if(session == TRAINING)
+			labels[i] = u8(inbyte());
+
+		outbyte(c_ACK);
+	}
+
+}

@@ -1,0 +1,51 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sources_1/new/utility.vhd" into library work
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sources_1/imports/Hardware_designs/sigmoid.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sigmoid
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sources_1/new/feedforward_dataflow.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity feedforward_dataflow
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sources_1/new/feedforward_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity feedforward_controller
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sources_1/new/AXIS_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AXIS_controller
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sources_1/new/main_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity main_controller
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sources_1/imports/project_module_workspace/AXIS_interface.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AXIS_interface
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sources_1/imports/project_module_workspace/lfsr_counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity lfsr_counter
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sources_1/new/weights_generator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity weights_generator
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sources_1/new/prediction.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity prediction
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sources_1/imports/bp_GOOD/back_prop_controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity back_prop_controller
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sources_1/imports/bp_GOOD/back_prop_dataflow.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity back_prop_dataflow
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sim_1/imports/project_module_workspace/test_AXIS_interface_v1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity test_AXIS_interface_v1
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sim_1/new/test_feedforward_dataflow_v1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity test_feedforward_dataflow_v1
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sim_1/new/test_feedforward_controller_v1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity test_feedforward_controller_stage1
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sim_1/new/test_feedforward_controller_stage2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity test_feedforward_controller_stage2
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sim_1/new/test_feedforward_controller_stage3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity test_feedforward_controller_stage3
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sim_1/new/test_feedforward_controller_stage4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity test_feedforward_controller_stage4
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sim_1/new/test_axis_controller_v1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity test_axis_controller_v1
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sim_1/new/test_main_controller_v1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity test_main_controller_v1
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sim_1/new/test_lfsr_counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity test_lfsr_counter
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sim_1/new/test_weights_generator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity test_weights_generator
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sim_1/new/test_prediction_single_ended.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity test_prediction_single_ended
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sim_1/imports/new/sigmoid_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sigmoid_test
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sim_1/new/test_backprop_single_ended.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity test_backprop_single_ended
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sim_1/new/test_prediction_multi_ended.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity test_prediction_multi_ended

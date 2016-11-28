@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_axis_controller_v1_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="test_axis_controller_v1" />
+            <top_module name="utility" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="4600000000fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="28" />
+   <wave_markers>
+      <marker label="" time="100000000" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/test_axis_controller_v1/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_axis_controller_v1/M_features">
+      <obj_property name="ElementShortName">M_features[0:14]</obj_property>
+      <obj_property name="ObjectShortName">M_features[0:14]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_axis_controller_v1/M_labels">
+      <obj_property name="ElementShortName">M_labels[0:2]</obj_property>
+      <obj_property name="ObjectShortName">M_labels[0:2]</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_axis_controller_v1/axis_command">
+      <obj_property name="ElementShortName">axis_command</obj_property>
+      <obj_property name="ObjectShortName">axis_command</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_axis_controller_v1/uut/AXIS_in.S_AXIS_TDATA">
+      <obj_property name="ElementShortName">.S_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">.S_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_axis_controller_v1/uut/AXIS_in.S_AXIS_TVALID">
+      <obj_property name="ElementShortName">.S_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">.S_AXIS_TVALID</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_axis_controller_v1/uut/AXIS_out.S_AXIS_TREADY">
+      <obj_property name="ElementShortName">.S_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">.S_AXIS_TREADY</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_axis_controller_v1/uut/state_curr">
+      <obj_property name="ElementShortName">state_curr</obj_property>
+      <obj_property name="ObjectShortName">state_curr</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_axis_controller_v1/uut/task_done">
+      <obj_property name="ElementShortName">task_done</obj_property>
+      <obj_property name="ObjectShortName">task_done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_axis_controller_v1/opcode">
+      <obj_property name="ElementShortName">opcode[15:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_axis_controller_v1/features_RAM">
+      <obj_property name="ElementShortName">features_RAM[0:14][11:0]</obj_property>
+      <obj_property name="ObjectShortName">features_RAM[0:14][11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_axis_controller_v1/labels_RAM">
+      <obj_property name="ElementShortName">labels_RAM[0:2][3:0]</obj_property>
+      <obj_property name="ObjectShortName">labels_RAM[0:2][3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_axis_controller_v1/feature_ram">
+      <obj_property name="ElementShortName">feature_ram[11:0]</obj_property>
+      <obj_property name="ObjectShortName">feature_ram[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_axis_controller_v1/weight1_ram">
+      <obj_property name="ElementShortName">weight1_ram[11:0]</obj_property>
+      <obj_property name="ObjectShortName">weight1_ram[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_axis_controller_v1/weight2_ram">
+      <obj_property name="ElementShortName">weight2_ram[11:0]</obj_property>
+      <obj_property name="ObjectShortName">weight2_ram[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_axis_controller_v1/label_ram">
+      <obj_property name="ElementShortName">label_ram[3:0]</obj_property>
+      <obj_property name="ObjectShortName">label_ram[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_axis_controller_v1/feature_write_req">
+      <obj_property name="ElementShortName">feature_write_req</obj_property>
+      <obj_property name="ObjectShortName">feature_write_req</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_axis_controller_v1/weight1_write_req">
+      <obj_property name="ElementShortName">weight1_write_req</obj_property>
+      <obj_property name="ObjectShortName">weight1_write_req</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_axis_controller_v1/weight2_write_req">
+      <obj_property name="ElementShortName">weight2_write_req</obj_property>
+      <obj_property name="ObjectShortName">weight2_write_req</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/test_axis_controller_v1/label_write_req">
+      <obj_property name="ElementShortName">label_write_req</obj_property>
+      <obj_property name="ObjectShortName">label_write_req</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_axis_controller_v1/feature_addr">
+      <obj_property name="ElementShortName">feature_addr</obj_property>
+      <obj_property name="ObjectShortName">feature_addr</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_axis_controller_v1/weight1_addr">
+      <obj_property name="ElementShortName">weight1_addr</obj_property>
+      <obj_property name="ObjectShortName">weight1_addr</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_axis_controller_v1/weight2_addr">
+      <obj_property name="ElementShortName">weight2_addr</obj_property>
+      <obj_property name="ObjectShortName">weight2_addr</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_axis_controller_v1/label_addr">
+      <obj_property name="ElementShortName">label_addr</obj_property>
+      <obj_property name="ObjectShortName">label_addr</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_axis_controller_v1/uut/cnt_weights">
+      <obj_property name="ElementShortName">cnt_weights</obj_property>
+      <obj_property name="ObjectShortName">cnt_weights</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_axis_controller_v1/uut/cnt_features">
+      <obj_property name="ElementShortName">cnt_features</obj_property>
+      <obj_property name="ObjectShortName">cnt_features</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_axis_controller_v1/uut/cnt_transfers">
+      <obj_property name="ElementShortName">cnt_transfers</obj_property>
+      <obj_property name="ObjectShortName">cnt_transfers</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/test_axis_controller_v1/uut/cnt_examples">
+      <obj_property name="ElementShortName">cnt_examples</obj_property>
+      <obj_property name="ObjectShortName">cnt_examples</obj_property>
+   </wvobject>
+</wave_config>

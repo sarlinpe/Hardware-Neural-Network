@@ -1,0 +1,3 @@
+#define INPUT_SIZE			13
+#define HIDDEN_SIZE			20
+#define NUM_LABELS			3

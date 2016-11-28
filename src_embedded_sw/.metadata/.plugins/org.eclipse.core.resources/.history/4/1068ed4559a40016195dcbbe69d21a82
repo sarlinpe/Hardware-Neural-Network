@@ -1,0 +1,17 @@
+#ifndef CONSTANTS_H
+#define CONSTANTS_H
+
+
+#define NB_FEATURES				13
+#define NB_HIDDEN_NODES			1
+#define NB_CLASSES				4
+#define SINGLE_ENDED			1
+#define NB_OUTPUT_NODES			(SINGLE_ENDED ? 1 : NB_CLASSES)
+
+#define c_TERM_OUT 				'$'
+#define c_ACK 					'%'
+#define c_ERR 					'@'
+#define c_END					'&'
+
+
+#endif

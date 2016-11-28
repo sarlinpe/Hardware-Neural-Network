@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Sun Nov 13 00:25:31 2016">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="578dc528b3394aaa82a09b7cff8263ea" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddBusInterfaceHandler" value="1" type="JavaHandler"/>
+<property name="AddSources" value="54" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="11" type="JavaHandler"/>
+<property name="CloseProject" value="57" type="JavaHandler"/>
+<property name="CoreView" value="6" type="JavaHandler"/>
+<property name="CustomizeCore" value="1" type="JavaHandler"/>
+<property name="CustomizeRSBBlock" value="1" type="JavaHandler"/>
+<property name="DebugWizardCmdHandler" value="2" type="JavaHandler"/>
+<property name="EditConstraintSets" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="17" type="JavaHandler"/>
+<property name="EditInIPPackagerHandler" value="1" type="JavaHandler"/>
+<property name="EditProperties" value="5" type="JavaHandler"/>
+<property name="EditRedo" value="1" type="JavaHandler"/>
+<property name="EditUndo" value="37" type="JavaHandler"/>
+<property name="ExportBitFile" value="1" type="JavaHandler"/>
+<property name="FlipToViewTaskSynthesis" value="2" type="JavaHandler"/>
+<property name="IPPackagerHandler" value="112" type="JavaHandler"/>
+<property name="IPPackagerWizardHandler" value="2" type="JavaHandler"/>
+<property name="ImportParametersHandler" value="5" type="JavaHandler"/>
+<property name="LaunchOpenTarget" value="1" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="3" type="JavaHandler"/>
+<property name="LeaveFeedback" value="1" type="JavaHandler"/>
+<property name="ManageCompositeTargets" value="2" type="JavaHandler"/>
+<property name="NewExportHardware" value="9" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenBlockDesign" value="1" type="JavaHandler"/>
+<property name="OpenExampleProject" value="1" type="JavaHandler"/>
+<property name="OpenHardwareDashboard" value="2" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="13" type="JavaHandler"/>
+<property name="OpenProject" value="13" type="JavaHandler"/>
+<property name="OpenRecentTarget" value="1" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="83" type="JavaHandler"/>
+<property name="RefreshDevice" value="3" type="JavaHandler"/>
+<property name="ReportDRC" value="4" type="JavaHandler"/>
+<property name="ReportMethodology" value="2" type="JavaHandler"/>
+<property name="ReportTimingSummary" value="3" type="JavaHandler"/>
+<property name="RunDesignAhead" value="2" type="JavaHandler"/>
+<property name="RunNoiseAnalysis" value="1" type="JavaHandler"/>
+<property name="RunSchematic" value="32" type="JavaHandler"/>
+<property name="RunSynthesis" value="6" type="JavaHandler"/>
+<property name="RunTrigger" value="58" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="36" type="JavaHandler"/>
+<property name="SaveProjectAs" value="1" type="JavaHandler"/>
+<property name="SetSourceEnabled" value="54" type="JavaHandler"/>
+<property name="SetTopNode" value="50" type="JavaHandler"/>
+<property name="ShowConnectivity" value="3" type="JavaHandler"/>
+<property name="ShowHierarchy" value="3" type="JavaHandler"/>
+<property name="ShowSource" value="11" type="JavaHandler"/>
+<property name="ShowView" value="19" type="JavaHandler"/>
+<property name="SimulationClose" value="104" type="JavaHandler"/>
+<property name="SimulationCompileLibraries" value="1" type="JavaHandler"/>
+<property name="SimulationRelaunch" value="455" type="JavaHandler"/>
+<property name="SimulationRestart" value="7" type="JavaHandler"/>
+<property name="SimulationRun" value="352" type="JavaHandler"/>
+<property name="SimulationRunAll" value="2" type="JavaHandler"/>
+<property name="SimulationRunForTime" value="5" type="JavaHandler"/>
+<property name="SimulationStep" value="236" type="JavaHandler"/>
+<property name="StopTrigger" value="8" type="JavaHandler"/>
+<property name="ToggleViewNavigator" value="28" type="JavaHandler"/>
+<property name="ToolsOptions" value="3" type="JavaHandler"/>
+<property name="ToolsTemplates" value="2" type="JavaHandler"/>
+<property name="UpdateSourceFiles" value="8" type="JavaHandler"/>
+<property name="UpgradeIP" value="1" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="1" type="JavaHandler"/>
+<property name="ViewTaskProgramandDebug" value="1" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="6" type="JavaHandler"/>
+<property name="ViewTaskRTLAnalysis" value="61" type="JavaHandler"/>
+<property name="ViewTaskSynthesis" value="8" type="JavaHandler"/>
+<property name="WaveformSaveConfiguration" value="104" type="JavaHandler"/>
+<property name="ZoomFit" value="70" type="JavaHandler"/>
+<property name="ZoomIn" value="93" type="JavaHandler"/>
+<property name="ZoomOut" value="75" type="JavaHandler"/>
+<property name="aO" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="AXIS_controller.vhd, 212, 279" value="1" type="GuiResourceData"/>
+<property name="AXIS_controller.vhd, 240, 695" value="1" type="GuiResourceData"/>
+<property name="AXIS_controller.vhd, 241, 210" value="1" type="GuiResourceData"/>
+<property name="AXIS_controller.vhd, 265, 283" value="2" type="GuiResourceData"/>
+<property name="AXIS_controller.vhd, 413, 617" value="1" type="GuiResourceData"/>
+<property name="AXIS_controller.vhd, 429, 485" value="8" type="GuiResourceData"/>
+<property name="AXIS_controller.vhd, 440, 237" value="1" type="GuiResourceData"/>
+<property name="AXIS_controller.vhd, 504, 508" value="1" type="GuiResourceData"/>
+<property name="AXIS_controller.vhd, 523, 278" value="3" type="GuiResourceData"/>
+<property name="AXIS_controller.vhd, 629, 307" value="1" type="GuiResourceData"/>
+<property name="AXIS_controller.vhd, 663, 187" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, AXIS_interface - version1 (AXIS_interface.vhd" value="19" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Disabled Sources], 2, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, /home/pe_s/Documents/EHSD/Project/Hardware_designs/BRAM_implementation/BRAM_implementation.xpr, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="9" type="GuiResourceData"/>
+<property name="PAResourceTtoZ.TaskBanner_CLOSE, (String" value="1" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 105, 533" value="2" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 112, 330" value="1" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 247, 369" value="1" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 247, 415" value="1" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 253, 251" value="1" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 282, 287" value="6" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 284, 315" value="1" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 291, 364" value="1" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 293, 533" value="6" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 339, 104, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 358, 159" value="4" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 389, 294" value="1" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 410, 299" value="1" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 418, 227" value="1" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 424, 517" value="1" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 449, 487" value="1" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 478, 242" value="1" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 478, 244" value="1" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 484, 486" value="6" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 498, 246" value="1" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 518, 326" value="2" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 668, 562" value="4" type="GuiResourceData"/>
+<property name="back_prop_controller.vhd, 668, 562, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="back_prop_dataflow.vhd, 1072, 327" value="1" type="GuiResourceData"/>
+<property name="back_prop_dataflow.vhd, 233, 397" value="1" type="GuiResourceData"/>
+<property name="back_prop_dataflow.vhd, 235, 25" value="1" type="GuiResourceData"/>
+<property name="back_prop_dataflow.vhd, 235, 589" value="4" type="GuiResourceData"/>
+<property name="back_prop_dataflow.vhd, 235, 589, false, false, false, true, false" value="2" type="GuiResourceData"/>
+<property name="back_prop_dataflow.vhd, 244, 267" value="2" type="GuiResourceData"/>
+<property name="back_prop_dataflow.vhd, 312, 552" value="1" type="GuiResourceData"/>
+<property name="back_prop_dataflow.vhd, 368, 399" value="1" type="GuiResourceData"/>
+<property name="back_prop_dataflow.vhd, 368, 415" value="1" type="GuiResourceData"/>
+<property name="back_prop_dataflow.vhd, 731, 448" value="1" type="GuiResourceData"/>
+<property name="feedforward_controller.vhd, 249, 329" value="3" type="GuiResourceData"/>
+<property name="feedforward_controller.vhd, 393, 299" value="1" type="GuiResourceData"/>
+<property name="feedforward_controller.vhd, 420, 259" value="6" type="GuiResourceData"/>
+<property name="feedforward_controller.vhd, 430, 367" value="2" type="GuiResourceData"/>
+<property name="feedforward_controller.vhd, 493, 392" value="1" type="GuiResourceData"/>
+<property name="feedforward_controller.vhd, 528, 339" value="3" type="GuiResourceData"/>
+<property name="feedforward_controller.vhd, 605, 292" value="4" type="GuiResourceData"/>
+<property name="feedforward_controller.vhd, 740, 277" value="1" type="GuiResourceData"/>
+<property name="feedforward_dataflow.vhd, 362, 272" value="5" type="GuiResourceData"/>
+<property name="feedforward_dataflow.vhd, 391, 517" value="2" type="GuiResourceData"/>
+<property name="feedforward_dataflow.vhd, 491, 540, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="feedforward_dataflow.vhd, 653, 282" value="1" type="GuiResourceData"/>
+<property name="feedforward_dataflow.vhd, 692, 328" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 1012, 404" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 175, 178" value="4" type="GuiResourceData"/>
+<property name="main_controller.vhd, 175, 437" value="5" type="GuiResourceData"/>
+<property name="main_controller.vhd, 192, 385" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 203, 112" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 212, 423" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 223, 437" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 224, 418" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 281, 547" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 285, 557" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 338, 535" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 35, 573" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 361, 183" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 397, 347" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 398, 436" value="9" type="GuiResourceData"/>
+<property name="main_controller.vhd, 429, 167" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 435, 171" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 435, 346" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 447, 225" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 462, 350" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 472, 430" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 509, 530" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 510, 492" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 514, 568" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 519, 500" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 602, 315" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 624, 657" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 674, 520" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 695, 484" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 711, 138" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 732, 308" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 739, 295" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 768, 296" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 936, 400" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 942, 260" value="1" type="GuiResourceData"/>
+<property name="main_controller.vhd, 953, 179" value="1" type="GuiResourceData"/>
+<property name="prediction.vhd, 342, 336" value="1" type="GuiResourceData"/>
+<property name="prediction.vhd, 593, 174" value="1" type="GuiResourceData"/>
+<property name="weights_generator.vhd, 838, 451" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="140" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="122" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>

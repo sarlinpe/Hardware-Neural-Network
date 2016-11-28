@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_routability" LaunchDir="/home/pe_s/Documents/EHSD/Project/Hardware_designs/NNs_hardware_platforms/NNs_hardware_platforms.runs/synth_routability" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

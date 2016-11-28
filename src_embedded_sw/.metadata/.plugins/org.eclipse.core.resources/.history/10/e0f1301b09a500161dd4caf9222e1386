@@ -1,0 +1,10 @@
+#ifndef SRC_MAIN_HPP_
+#define SRC_MAIN_HPP_
+
+//#define DEBUG
+
+
+
+void send_code(char c);
+
+#endif

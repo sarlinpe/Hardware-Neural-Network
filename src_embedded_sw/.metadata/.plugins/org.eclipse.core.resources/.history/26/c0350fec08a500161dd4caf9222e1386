@@ -1,0 +1,9 @@
+#ifndef SRC_UTILITY_HPP_
+#define SRC_UTILITY_HPP_
+
+
+int ceil_div(int num, int den);
+void send_code(char c);
+
+
+#endif

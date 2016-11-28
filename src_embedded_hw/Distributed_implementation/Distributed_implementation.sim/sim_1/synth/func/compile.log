@@ -1,0 +1,16 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.sim/sim_1/synth/func/test_main_controller_v1_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AXIS_controller
+INFO: [VRFC 10-307] analyzing entity lfsr_counter
+INFO: [VRFC 10-307] analyzing entity sigmoid
+INFO: [VRFC 10-307] analyzing entity sigmoid_0
+INFO: [VRFC 10-307] analyzing entity sigmoid_1
+INFO: [VRFC 10-307] analyzing entity sigmoid_2
+INFO: [VRFC 10-307] analyzing entity feedforward_dataflow
+INFO: [VRFC 10-307] analyzing entity weights_generator
+INFO: [VRFC 10-307] analyzing entity feedforward_controller
+INFO: [VRFC 10-307] analyzing entity main_controller
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sim_1/new/test_main_controller_v1.vhd" into library xil_defaultlib
+ERROR: [VRFC 10-149] 'utility' is not compiled in library xil_defaultlib [/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sim_1/new/test_main_controller_v1.vhd:4]
+INFO: [VRFC 10-307] analyzing entity test_main_controller_v1
+ERROR: [VRFC 10-1504] unit test_main_controller_v1 ignored due to previous errors [/home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sim_1/new/test_main_controller_v1.vhd:6]
+INFO: [VRFC 10-240] VHDL file /home/pe_s/Documents/EHSD/Project/Hardware_designs/project_module_workspace/project_module_workspace.srcs/sim_1/new/test_main_controller_v1.vhd ignored due to errors

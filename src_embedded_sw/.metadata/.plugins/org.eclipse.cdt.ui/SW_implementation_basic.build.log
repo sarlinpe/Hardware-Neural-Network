@@ -1,0 +1,24 @@
+00:11:52 **** Auto Build of configuration Debug for project SW_implementation_basic ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.cc
+Invoking: ARM v7 g++ compiler
+arm-none-eabi-g++ -Wall -O0 -g3 -I/home/pe_s/Documents/Libraries/Eigen -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=neon -mfpu=vfpv3 -mfloat-abi=hard -I../../SW_implementation_basic_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+Finished building: ../src/main.cc
+ 
+Building target: SW_implementation_basic.elf
+Invoking: ARM v7 g++ linker
+arm-none-eabi-g++ -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../SW_implementation_basic_bsp/ps7_cortexa9_0/lib -o "SW_implementation_basic.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,-lstdc++,--end-group
+Finished building target: SW_implementation_basic.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size -t -x SW_implementation_basic.elf  |tee "SW_implementation_basic.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+0x548a0	 0x13f0	0x2ca90	 534304	  82720	SW_implementation_basic.elf
+0x548a0	 0x13f0	0x2ca90	 534304	  82720	(TOTALS)
+Finished building: SW_implementation_basic.elf.size
+ 
+
+00:11:56 Build Finished (took 3s.941ms)
+

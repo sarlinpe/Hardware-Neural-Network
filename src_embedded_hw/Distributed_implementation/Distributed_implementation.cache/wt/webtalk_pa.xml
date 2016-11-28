@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Sun Nov 13 00:13:39 2016">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="578dc528b3394aaa82a09b7cff8263ea" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddBusInterfaceHandler" value="1" type="JavaHandler"/>
+<property name="AddSources" value="57" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="10" type="JavaHandler"/>
+<property name="CloseProject" value="56" type="JavaHandler"/>
+<property name="CoreView" value="4" type="JavaHandler"/>
+<property name="CustomizeRSBBlock" value="1" type="JavaHandler"/>
+<property name="DebugWizardCmdHandler" value="1" type="JavaHandler"/>
+<property name="EditConstraintSets" value="1" type="JavaHandler"/>
+<property name="EditDelete" value="18" type="JavaHandler"/>
+<property name="EditInIPPackagerHandler" value="1" type="JavaHandler"/>
+<property name="EditProperties" value="5" type="JavaHandler"/>
+<property name="EditRedo" value="1" type="JavaHandler"/>
+<property name="EditUndo" value="36" type="JavaHandler"/>
+<property name="ExportBitFile" value="1" type="JavaHandler"/>
+<property name="FlipToViewTaskSynthesis" value="2" type="JavaHandler"/>
+<property name="IPPackagerHandler" value="88" type="JavaHandler"/>
+<property name="ImportParametersHandler" value="5" type="JavaHandler"/>
+<property name="LaunchOpenTarget" value="1" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="3" type="JavaHandler"/>
+<property name="LeaveFeedback" value="1" type="JavaHandler"/>
+<property name="ManageCompositeTargets" value="2" type="JavaHandler"/>
+<property name="NewExportHardware" value="11" type="JavaHandler"/>
+<property name="NewProject" value="1" type="JavaHandler"/>
+<property name="OpenBlockDesign" value="1" type="JavaHandler"/>
+<property name="OpenExampleProject" value="1" type="JavaHandler"/>
+<property name="OpenHardwareDashboard" value="2" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="12" type="JavaHandler"/>
+<property name="OpenProject" value="11" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="87" type="JavaHandler"/>
+<property name="RefreshDevice" value="3" type="JavaHandler"/>
+<property name="ReportDRC" value="4" type="JavaHandler"/>
+<property name="ReportMethodology" value="2" type="JavaHandler"/>
+<property name="ReportTimingSummary" value="3" type="JavaHandler"/>
+<property name="RunDesignAhead" value="2" type="JavaHandler"/>
+<property name="RunNoiseAnalysis" value="1" type="JavaHandler"/>
+<property name="RunSchematic" value="37" type="JavaHandler"/>
+<property name="RunSynthesis" value="6" type="JavaHandler"/>
+<property name="RunTrigger" value="40" type="JavaHandler"/>
+<property name="SaveFileProxyHandler" value="39" type="JavaHandler"/>
+<property name="SaveProjectAs" value="1" type="JavaHandler"/>
+<property name="SetSourceEnabled" value="55" type="JavaHandler"/>
+<property name="SetTopNode" value="51" type="JavaHandler"/>
+<property name="ShowConnectivity" value="3" type="JavaHandler"/>
+<property name="ShowHierarchy" value="3" type="JavaHandler"/>
+<property name="ShowSource" value="11" type="JavaHandler"/>
+<property name="ShowView" value="20" type="JavaHandler"/>
+<property name="SimulationClose" value="117" type="JavaHandler"/>
+<property name="SimulationCompileLibraries" value="1" type="JavaHandler"/>
+<property name="SimulationRelaunch" value="457" type="JavaHandler"/>
+<property name="SimulationRestart" value="7" type="JavaHandler"/>
+<property name="SimulationRun" value="368" type="JavaHandler"/>
+<property name="SimulationRunAll" value="2" type="JavaHandler"/>
+<property name="SimulationRunForTime" value="5" type="JavaHandler"/>
+<property name="SimulationStep" value="236" type="JavaHandler"/>
+<property name="StopTrigger" value="5" type="JavaHandler"/>
+<property name="ToggleViewNavigator" value="28" type="JavaHandler"/>
+<property name="ToolsOptions" value="3" type="JavaHandler"/>
+<property name="ToolsTemplates" value="2" type="JavaHandler"/>
+<property name="UpdateSourceFiles" value="8" type="JavaHandler"/>
+<property name="UpgradeIP" value="1" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="1" type="JavaHandler"/>
+<property name="ViewTaskProgramandDebug" value="1" type="JavaHandler"/>
+<property name="ViewTaskProjectManager" value="6" type="JavaHandler"/>
+<property name="ViewTaskRTLAnalysis" value="65" type="JavaHandler"/>
+<property name="ViewTaskSynthesis" value="8" type="JavaHandler"/>
+<property name="WaveformSaveConfiguration" value="104" type="JavaHandler"/>
+<property name="ZoomFit" value="75" type="JavaHandler"/>
+<property name="ZoomIn" value="98" type="JavaHandler"/>
+<property name="ZoomOut" value="85" type="JavaHandler"/>
+<property name="aO" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, /home/pe_s/Documents/EHSD/Project/Hardware_designs/Distributed_implementation/Distributed_implementation.xpr, 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceTtoZ.TaskBanner_CLOSE, (String" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String" value="1" type="GuiResourceData"/>
+<property name="RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, reset_project, true" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="140" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="122" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
