@@ -2,7 +2,9 @@
 
 Hardware accelerator of a Multilayer Perceptron running on a Xilinx Zynq-7000 SoC.
 
-<img src="doc/diagrams/overall.jpg" width="500"/>
+<p align="center">
+	<img src="doc/diagrams/overall.jpg" width="500"/>
+</p>
 
 ## Scope
 
