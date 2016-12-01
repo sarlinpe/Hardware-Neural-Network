@@ -1,0 +1,9 @@
+$ cat .gitattributes
+
+src_embedded_hw/BRAM_implementation/BRAM_implementation.hw/* linguist-vendored
+src_embedded_hw/Distributed_implementation/Distributed_implementation.hw/* linguist_vendored
+src_embedded_hw/NNs_hardware_platforms/NNs_hardware_platforms.hw/* linguist_vendored
+
+src_embedded_hw/Distributed_implementation/Distributed_implementation.sim/* linguist_vendored
+
+src_embedded_sw/webtalk/* linguist_vendored
