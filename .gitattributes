@@ -5,4 +5,4 @@ src_embedded_hw/NNs_hardware_platforms/NNs_hardware_platforms.hw/* linguist-vend
 
 src_embedded_hw/Distributed_implementation/Distributed_implementation.sim/* linguist-vendored
 
-src_embedded_sw/webtalk/* linguist-vendored
+src_embedded_sw/webtalk/usage_statistics_ext_sdk.html linguist-vendored
