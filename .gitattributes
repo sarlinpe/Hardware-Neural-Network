@@ -1,4 +1,3 @@
-# cat .gitattributes
 
 src_embedded_hw/BRAM_implementation/BRAM_implementation.hw/ linguist-vendored
 src_embedded_hw/Distributed_implementation/Distributed_implementation.hw/* linguist-vendored
