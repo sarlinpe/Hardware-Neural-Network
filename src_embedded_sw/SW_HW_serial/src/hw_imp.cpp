@@ -9,7 +9,7 @@
 #define TX_BUFFER_BASE			(MEM_BASE_ADDR + 0x00100000)
 #define RX_BUFFER_BASE			(MEM_BASE_ADDR + 0x00300000)
 #define RX_BUFFER_HIGH			(MEM_BASE_ADDR + 0x004FFFFF)
-// (output buffer has size: 0x300000 - 0x100000 = 0x200000
+// output buffer has size: 0x300000 - 0x100000 = 0x200000
 
 #define LABELS_PER_TRANSFER		8
 
