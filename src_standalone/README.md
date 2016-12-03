@@ -18,8 +18,8 @@ Features, weights as well as intermediate outputs are implemented as 12-bit sign
 As exponentiation and division are two hardly synthesizable operations, a [custom and fast sigmoid function](http://sharpneat.sourceforge.net/research/integer-neuralnet/integer-neuralnet.html) was used. The standard logistic curve is thus replaced by an efficient piecewise square function that only requires a translation, a square and a scaling.
 
 <p align="center">
-	<img src="../doc/sigmoid_formula.jpg" width="350"/>
-	<img src="../doc/sigmoid_plot.jpg" width="350"/>
+	<img src="../doc/sigmoid_formula.jpg" width="500"/>
+	<img src="../doc/sigmoid_plot.jpg" width="500"/>
 </p>
 
 In the plot are shown the new sigmoid function (red curve) and the scaled standard logistic function (black curve). Both have the same asymptomatic behaviour and only differ a bit in they linear region, which should not affect the performances of the neural network.
