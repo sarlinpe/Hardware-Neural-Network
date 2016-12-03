@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FAB827D81DCF405600716E92 /* main_with_validation_fixed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA51F9371DB31CFD00586EEF /* main_with_validation_fixed.cpp */; };
+		FA2E640B1DF2F88400632E76 /* main_no_validation_fixed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA51F9371DB31CFD00586EEF /* main_no_validation_fixed.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,11 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FA51F7C11DB3107800586EEF /* NN Project Cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "NN Project Cpp"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA51F7C41DB3107800586EEF /* eigen_multiply.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = eigen_multiply.cpp; sourceTree = "<group>"; };
-		FA51F9371DB31CFD00586EEF /* main_with_validation_fixed.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main_with_validation_fixed.cpp; sourceTree = "<group>"; };
+		FA51F7C11DB3107800586EEF /* mlp_eigen_cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mlp_eigen_cpp; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA51F9371DB31CFD00586EEF /* main_no_validation_fixed.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main_no_validation_fixed.cpp; sourceTree = "<group>"; };
 		FA51F93A1DB31E4700586EEF /* data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = data.h; sourceTree = "<group>"; };
-		FA51F93B1DB3307900586EEF /* main_no_validation_fixed.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main_no_validation_fixed.cpp; sourceTree = "<group>"; };
+		FA51F93B1DB3307900586EEF /* main_with_validation_fixed.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main_with_validation_fixed.cpp; sourceTree = "<group>"; };
 		FA51F93E1DB3367200586EEF /* main_no_validation_serial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main_no_validation_serial.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,7 +44,7 @@
 		FA51F7B81DB3107800586EEF = {
 			isa = PBXGroup;
 			children = (
-				FA51F7C31DB3107800586EEF /* NN Project Cpp */,
+				FA51F7C31DB3107800586EEF /* src */,
 				FA51F7C21DB3107800586EEF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,29 +52,28 @@
 		FA51F7C21DB3107800586EEF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA51F7C11DB3107800586EEF /* NN Project Cpp */,
+				FA51F7C11DB3107800586EEF /* mlp_eigen_cpp */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA51F7C31DB3107800586EEF /* NN Project Cpp */ = {
+		FA51F7C31DB3107800586EEF /* src */ = {
 			isa = PBXGroup;
 			children = (
-				FA51F7C41DB3107800586EEF /* eigen_multiply.cpp */,
 				FA51F93A1DB31E4700586EEF /* data.h */,
-				FA51F9371DB31CFD00586EEF /* main_with_validation_fixed.cpp */,
-				FA51F93B1DB3307900586EEF /* main_no_validation_fixed.cpp */,
+				FA51F9371DB31CFD00586EEF /* main_no_validation_fixed.cpp */,
+				FA51F93B1DB3307900586EEF /* main_with_validation_fixed.cpp */,
 				FA51F93E1DB3367200586EEF /* main_no_validation_serial.cpp */,
 			);
-			path = "NN Project Cpp";
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA51F7C01DB3107800586EEF /* NN Project Cpp */ = {
+		FA51F7C01DB3107800586EEF /* mlp_eigen_cpp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA51F7C81DB3107800586EEF /* Build configuration list for PBXNativeTarget "NN Project Cpp" */;
+			buildConfigurationList = FA51F7C81DB3107800586EEF /* Build configuration list for PBXNativeTarget "mlp_eigen_cpp" */;
 			buildPhases = (
 				FA51F7BD1DB3107800586EEF /* Sources */,
 				FA51F7BE1DB3107800586EEF /* Frameworks */,
@@ -85,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = "NN Project Cpp";
+			name = mlp_eigen_cpp;
 			productName = "NN Project Cpp";
-			productReference = FA51F7C11DB3107800586EEF /* NN Project Cpp */;
+			productReference = FA51F7C11DB3107800586EEF /* mlp_eigen_cpp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +94,7 @@
 		FA51F7B91DB3107800586EEF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "NUS EE4218";
 				TargetAttributes = {
 					FA51F7C01DB3107800586EEF = {
@@ -104,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FA51F7BC1DB3107800586EEF /* Build configuration list for PBXProject "NN Project Cpp" */;
+			buildConfigurationList = FA51F7BC1DB3107800586EEF /* Build configuration list for PBXProject "mlp_eigen_cpp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -116,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA51F7C01DB3107800586EEF /* NN Project Cpp */,
+				FA51F7C01DB3107800586EEF /* mlp_eigen_cpp */,
 			);
 		};
 /* End PBXProject section */
@@ -126,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB827D81DCF405600716E92 /* main_with_validation_fixed.cpp in Sources */,
+				FA2E640B1DF2F88400632E76 /* main_no_validation_fixed.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +145,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -191,8 +191,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -217,6 +219,7 @@
 		FA51F7C91DB3107800586EEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CLANG_OPTIMIZATION_PROFILE_FILE[arch=*]" = "$(SRCROOT)/OptimizationProfiles/$(PROJECT_NAME).profdata";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = /Users/pe_s/Makers/Programming/Libraries/Eigen;
 			};
@@ -233,7 +236,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA51F7BC1DB3107800586EEF /* Build configuration list for PBXProject "NN Project Cpp" */ = {
+		FA51F7BC1DB3107800586EEF /* Build configuration list for PBXProject "mlp_eigen_cpp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA51F7C61DB3107800586EEF /* Debug */,
@@ -242,7 +245,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA51F7C81DB3107800586EEF /* Build configuration list for PBXNativeTarget "NN Project Cpp" */ = {
+		FA51F7C81DB3107800586EEF /* Build configuration list for PBXNativeTarget "mlp_eigen_cpp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA51F7C91DB3107800586EEF /* Debug */,

@@ -60,7 +60,7 @@ for i=1:iterations
     
     % Gradient 
     delta_3 = h - y_logic;
-    delta_2 = delta_3 * Theta2(:,2:end) .* a_2(m_train,2:end) .* (1-a_2(m_train,2:end)); %.* sigmoidGradient(a_1*Theta1');
+    delta_2 = delta_3 * Theta2(:,2:end) .* a_2(m_train,2:end) .* (1-a_2(m_train,2:end));
     Delta_2 = delta_3'*a_2;
     Delta_1 = delta_2'*a_1;
     

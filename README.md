@@ -22,7 +22,7 @@ Depending on the instructions, the task is performed either in software (PS) or 
 Several implementations, either standalone or embedded, have been developed. The first ones act as a proof of concept of the high-level algorithm, while the others allow to compare cost and performances of the final software and hardware embedded applications.
 More information on these implementations can be found in their respective folders.
 
-### Standalone vectorized software
+### Standalone vectorised software
 
 A Matlab floating-point implementation of the feedforward and back propagation phases was used to validate the high-level algorithms and verify that a decent accuracy was reachable with datasets of different sizes.
 
